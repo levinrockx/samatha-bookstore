@@ -1,1 +1,14 @@
 /* You can add global styles to this file, and also import other style files */
+@font-face {
+  font-family: "DidactGothic";
+  src: url("./assets/fonts/DidactGothic/DidactGothic-Regular.ttf");
+}
+body {
+  margin: 0 !important;
+  padding: 0 !important;
+  font-family: DidactGothic !important;
+  font-size: 0.9375rem !important;
+}
+.custom-container {
+  margin: 0 9% !important;
+}
