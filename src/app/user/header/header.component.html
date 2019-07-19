@@ -3,12 +3,39 @@
         പ്രസാധനരംഗത്തെ പെൺകൂട്ടായ്മ
     </div>
 </div>
-<div class="row p-0 m-0 header-main">
+<div class="row p-0 m-0 ">
     <div class="custom-container">
-        <div class="col-12 row p-0 m-0">
+        <div class=" row p-0 m-0 col-12">
             <div class="col-4">
-                <img src="assets/img/logo.png" class="header-logo" alt="logo image">
+                <img src="assets/img/logosec.PNG" class="header-logo" alt="logo image">
             </div>
-         </div>
+            <div class="col-8 navs">
+                <div class=" row p-0 m-0 ">
+                    <div class=" col-3 header-btn">Home</div>
+                    <div class=" col-3 header-btn">About</div>
+                    <div class=" col-3 header-btn">Book-store</div>
+                    <div class=" col-3 header-btn">Contact</div>
+                </div>
+
+                <div class="col-12 row p-0 m-0 ">
+                    <div class="col-9 p-0 m-0">
+                        <input type="text" placeholder="Search for Category/Books/Author/Price..." class="search-bar">
+                    </div>
+                    <div class="col-3 p-0 m-0">
+                        <button class="search-btn">Search</button>
+                    </div>
+                </div>
+
+            </div>
+            <div class="col-8 responsive-nav-icon-wrapper">
+                <button (click)="responsiveHeader()">icon</button>
+            </div>
+        </div>
+        <div class="row col-12 p-0 m-0 header-responsive" [ngClass]="{'show-responsive-header': headerresponsivestatus}">
+            <div class="text-center col-12 nav-items" >Home</div>
+            <div class="text-center col-12 nav-items">About</div>
+            <div class="text-center col-12 nav-items">Book-store</div>
+            <div class="text-center col-12 nav-items">Contact</div>
+        </div>
     </div>
 </div>

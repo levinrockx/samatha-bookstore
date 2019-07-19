@@ -6,10 +6,14 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./header.component.scss']
 })
 export class HeaderComponent implements OnInit {
-
+  public headerresponsivestatus: Boolean = false;
   constructor() { }
 
   ngOnInit() {
   }
 
+  responsiveHeader() {
+    this.headerresponsivestatus = !this.headerresponsivestatus;
+  }
+  
 }
