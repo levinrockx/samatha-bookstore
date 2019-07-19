@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faBars, faSearch  } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-header',
@@ -7,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HeaderComponent implements OnInit {
   public headerresponsivestatus: Boolean = false;
+  public faBars = faBars;
+  public faSearch = faSearch;
   constructor() { }
 
   ngOnInit() {
@@ -15,5 +18,5 @@ export class HeaderComponent implements OnInit {
   responsiveHeader() {
     this.headerresponsivestatus = !this.headerresponsivestatus;
   }
-  
+
 }
