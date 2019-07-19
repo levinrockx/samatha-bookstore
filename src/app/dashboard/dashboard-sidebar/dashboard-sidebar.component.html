@@ -1,5 +1,20 @@
 <div class="row p-0 m-0 dashboard-sidebar-main">
-    <div class="logo-wrapper">
-        <img class="sidebar-logo" src="assets/img/logo1.PNG">
+    <div class="col-12 p-0 m-0 navs">
+        <div class="col-12 nav-link" (click)="navSelection(0)" [ngClass]="{'nav-link-selected': selectedLink == 0}">
+            <fa-icon slot="start" [icon]="faHome"></fa-icon>
+            <div class="nav-link-text">Home</div>
+        </div>
+        <div class="col-12 nav-link" (click)="navSelection(1)" [ngClass]="{'nav-link-selected': selectedLink == 1}">
+            <fa-icon slot="start" [icon]="faUsersCog"></fa-icon>
+            <div class="nav-link-text">Dashboard</div>
+        </div>
+        <div class="col-12 nav-link" (click)="navSelection(2)" [ngClass]="{'nav-link-selected': selectedLink == 2}">
+            <fa-icon slot="start" [icon]="faCogs"></fa-icon>
+            <div class="nav-link-text">Settings</div>
+        </div>
+        <div class="col-12 nav-link" (click)="navSelection(3)" [ngClass]="{'nav-link-selected': selectedLink == 3}">
+            <fa-icon slot="start" [icon]="faPowerOff"></fa-icon>
+            <div class="nav-link-text">Logout</div>
+        </div>
     </div>
 </div>
