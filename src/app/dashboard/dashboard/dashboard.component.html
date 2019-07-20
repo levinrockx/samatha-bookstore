@@ -1,1 +1,23 @@
-<p>dashboard works!</p>
+<div class="row p-0 m-0 dashboard-main">
+    <div class="custom-container">
+        <div class="dashboard-heading">
+            Dashboard<span class="dashboard-sub-heading">
+                - Welcome Admin
+                <fa-icon class="dashboard-icon" [icon]="faUsersCog"></fa-icon></span>
+        </div>
+        <div class="row p-0 m-0 tabs-main">
+            <ul class="tabs-list  p-0 m-0">
+                <li class="tab-item">
+                    <button class="tab-item-button" (click)="selectTab(0)" [ngClass]="{'tab-item-button-selected': tabSelected == 0}">
+                        Add
+                    </button>
+                </li>
+                <li class="tab-item">
+                    <button class="tab-item-button" (click)="selectTab(1)" [ngClass]="{'tab-item-button-selected': tabSelected == 1}">
+                        Edit
+                    </button>
+                </li>
+            </ul>
+        </div>
+    </div>
+</div>

@@ -1,14 +1,14 @@
 <div class="row p-0 m-0 dashboard-sidebar-main">
     <div class="col-12 p-0 m-0 navs">
-        <div class="col-12 nav-link" (click)="navSelection(0)" [ngClass]="{'nav-link-selected': selectedLink == 0}">
+        <div class="col-12 nav-link" (click)="navSelection(0, 'user/home')" [ngClass]="{'nav-link-selected': selectedLink == 0}">
             <fa-icon slot="start" [icon]="faHome"></fa-icon>
             <div class="nav-link-text">Home</div>
         </div>
-        <div class="col-12 nav-link" (click)="navSelection(1)" [ngClass]="{'nav-link-selected': selectedLink == 1}">
+        <div class="col-12 nav-link" (click)="navSelection(1 , 'admin/dashboard')" [ngClass]="{'nav-link-selected': selectedLink == 1}">
             <fa-icon slot="start" [icon]="faUsersCog"></fa-icon>
             <div class="nav-link-text">Dashboard</div>
         </div>
-        <div class="col-12 nav-link" (click)="navSelection(2)" [ngClass]="{'nav-link-selected': selectedLink == 2}">
+        <div class="col-12 nav-link" (click)="navSelection(2 , 'admin/settings')" [ngClass]="{'nav-link-selected': selectedLink == 2}">
             <fa-icon slot="start" [icon]="faCogs"></fa-icon>
             <div class="nav-link-text">Settings</div>
         </div>
