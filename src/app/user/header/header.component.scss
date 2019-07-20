@@ -35,7 +35,7 @@
   margin-top: 44px;
   border: 0;
   border-radius: 10px 0 0 10px;
-  color: #b2bec3;
+  color: #000000;
   box-shadow: 0 4px 17px 0 rgba(0, 0, 0, 0.16);
 }
 .responsive-nav-icon-wrapper {
@@ -89,6 +89,9 @@
 @media (max-width: 768px) { 
     .s-bartwo{
         display: none;
+    }
+    .malayalam{
+      font-size: 14px;
     }
  }
 @media (min-width: 768px) { 

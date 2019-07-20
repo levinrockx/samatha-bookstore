@@ -1,11 +1,85 @@
-.footer-logo{
-    height: 220px;
+.footer-logo {
+  height: 220px;
 }
-.footer-left{
-    font-family: DidactGothic;
-    color: #707070;
-    font-size: 3px;
+.footer-left {
+  font-family: DidactGothic;
+  color: #707070;
+  font-size: 30px;
 }
-.footer-main{
-    background-color: #ffffff;
+.footer-main {
+  background-color: #ffffff;
+  height: 500px !important;
 }
+
+.footer-lefttwo {
+  //padding-left: 45px !important;
+  border-left: 1px solid black;
+  //display: flex;
+  //justify-items: center;
+}
+.footer-navsone {
+  color: #707070;
+  font-size: 30px;
+  font-family: DidactGothic;
+  padding-bottom: 18px;
+  display: flex;
+  justify-content: center;
+}
+.footer-navstwo {
+  color: #707070;
+  font-family: DidactGothic;
+  font-size: 21px;
+
+ //padding-bottom: 118px !important;
+}
+.footer-right-firstmain {
+  border-left: 1px solid black;
+  padding-left: 45px !important; 
+}
+.footer-right-firstone {
+  font-size: 30px;
+  color: #707070;
+  font-family: DidactGothic;
+  padding-bottom: 18px;
+  
+}
+.footer-right-firsttwo {
+  font-size: 21px;
+  color: #707070;
+
+}
+.foooter-socialmedia {
+  display: flex;
+  align-items: center;
+  border-left: 1px solid black;
+}
+.media-icon-facebook {
+  padding-left: 48px !important;
+  font-size: 69px;
+}
+.media-icon-whatsapp {
+  padding-left: 10px;
+  font-size: 69px;
+}
+// @media (max-width: 777px) {
+//   .footer-logo {
+//     height: 110px;
+//   }
+//   .footer-left {
+//     display: none;
+//   }
+//   .res-footer-left {
+//     font-size: 15px;
+//     display: flex;
+//     justify-content: center;
+//   }
+//   .header-img-res {
+//     display: flex;
+//     justify-content: center;
+//   }
+// }
+// @media (min-width: 777px) {
+//   .res-footer-left {
+//     display: none;
+//   }
+// }
