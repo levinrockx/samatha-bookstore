@@ -1,0 +1,19 @@
+<div class="row p-0 m-0 tabs-main">
+    <ul class="tabs-list p-0 m-0">
+        <li class="tab-item">
+            <button class="tab-item-button" (click)="selectTab(0)" [ngClass]="{'tab-item-button-selected': tabSelected == 0}">
+                Edit Book
+            </button>
+        </li>
+        <li class="tab-item">
+            <button class="tab-item-button" (click)="selectTab(1)" [ngClass]="{'tab-item-button-selected': tabSelected == 1}">
+                Edit Author
+            </button>
+        </li>
+        <li class="tab-item">
+            <button class="tab-item-button" (click)="selectTab(2)" [ngClass]="{'tab-item-button-selected': tabSelected == 2}">
+                Edit Category
+            </button>
+        </li>
+    </ul>
+</div>

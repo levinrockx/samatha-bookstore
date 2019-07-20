@@ -1,0 +1,19 @@
+.tabs-list {
+  text-align: center;
+  list-style: none;
+  .tab-item {
+    display: inline-block;
+  }
+  .tab-item-button {
+    color: #ffffff;
+    background-color: rgba(128, 128, 128, 0.76);
+    opacity: 0.5;
+    width: 127.1px;
+    height: 48px;
+    outline: 0;
+    border-radius: 0px 10px;
+  }
+  .tab-item-button-selected {
+    background-color: #000000 !important;
+  }
+}

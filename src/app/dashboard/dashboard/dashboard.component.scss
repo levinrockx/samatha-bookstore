@@ -34,6 +34,11 @@
     background-color: #000000 !important;
   }
 }
+.tabs-secondary {
+  width: 100%;
+  border-bottom: 1px solid grey;
+  padding-top: 30px !important;
+}
 @media (max-width: 1200px) {
   .dashboard-heading {
     font-size: 3rem;
