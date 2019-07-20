@@ -32,12 +32,19 @@
   }
   .tab-item-button-selected {
     background-color: #000000 !important;
+    box-shadow: -2px -2px 7px 0px #00000066;
   }
 }
 .tabs-secondary {
   width: 100%;
-  border-bottom: 1px solid grey;
+  // border-bottom: 1px solid grey;
   padding-top: 30px !important;
+}
+.app-dashboard-add-main{
+  width: 100%;
+}
+.app-dashboard-edit-main{
+  width: 100%;
 }
 @media (max-width: 1200px) {
   .dashboard-heading {

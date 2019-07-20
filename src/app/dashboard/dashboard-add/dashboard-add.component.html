@@ -17,3 +17,12 @@
         </li>
     </ul>
 </div>
+<div class="row p-0 m-0 add-book-main" *ngIf="tabSelected == 0">
+    <app-dashboard-add-book class="add-book-component"></app-dashboard-add-book>
+</div>
+<div class="row p-0 m-0 add-author-main" *ngIf="tabSelected == 1">
+    <app-dashboard-add-author class="add-author-component"></app-dashboard-add-author>
+</div>
+<div class="row p-0 m-0 add-category-main" *ngIf="tabSelected == 2">
+    <app-dashboard-add-category class="add-category-component"></app-dashboard-add-category>
+</div>
