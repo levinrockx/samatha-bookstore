@@ -5,8 +5,9 @@ import { DashboardlandingComponent } from './dashboardlanding/dashboardlanding.c
 import { DashboardSidebarComponent } from './dashboard-sidebar/dashboard-sidebar.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { DashboardAddEditComponent } from './dashboard-add-edit/dashboard-add-edit.component';
 @NgModule({
-  declarations: [DashboardlandingComponent, DashboardSidebarComponent, DashboardComponent],
+  declarations: [DashboardlandingComponent, DashboardSidebarComponent, DashboardComponent, DashboardAddEditComponent],
   imports: [
     CommonModule,
     DashboardRoutingModule,
