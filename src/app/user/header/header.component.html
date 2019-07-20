@@ -3,10 +3,10 @@
         പ്രസാധനരംഗത്തെ പെൺകൂട്ടായ്മ
     </div>
 </div>
-<div class="row p-0 m-0 ">
+<div class="row p-0 m-0 header-main">
     <div class="custom-container">
-        <div class=" row p-0 m-0 col-12">
-            <div class="col-4 p-0">
+        <div class=" row p-0 m-0 col-12 regular-header-main">
+            <div class="col-4 p-0 logo-main">
                 <img src="assets/img/logosec.PNG" class="header-logo" alt="logo image">
             </div>
             <div class="col-8 navs">
@@ -16,23 +16,20 @@
                     <div class=" col-3 header-btn">Book-store</div>
                     <div class=" col-3 header-btn">Contact</div>
                 </div>
-
                 <div class="col-12 row p-0 m-0 ">
                     <div class="col-9 p-0 m-0">
-                        <input type="text" placeholder="Search for Category/Books/Author/Price..." class="search-bar">
+                        <input type="text" placeholder="Search for books / category / author/ price" class="search-bar">
                     </div>
                     <div class="col-3 p-0 m-0">
                         <button class="search-btn">Search</button>
                     </div>
                 </div>
-
             </div>
             <div class="col-8 responsive-nav-icon-wrapper">
                 <fa-icon (click)="responsiveHeader()" class="bars-icon" [icon]="faBars"></fa-icon>
             </div>
         </div>
-        <div class="row col-12 p-0 m-0 header-responsive"
-            [ngClass]="{'show-responsive-header': headerresponsivestatus}">
+        <div class="row col-12 p-0 m-0 header-responsive" [ngClass]="{'show-responsive-header': headerresponsivestatus}">
             <div class="text-center col-12 nav-items">Home</div>
             <div class="text-center col-12 nav-items">About</div>
             <div class="text-center col-12 nav-items">Book-store</div>
@@ -40,22 +37,21 @@
         </div>
         <div class="col-12 row p-0 m-0 responsive-nav-icon-wrapper ">
             <div class="col-9 p-0 m-0">
-                <input type="text" placeholder="Search ..." class="search-bar s-barone">
+                <input type="text" placeholder="Search" class="search-bar s-barone">
             </div>
             <div class="col-3 p-0 m-0">
                 <button class="search-btn s-barone">
-                        <fa-icon  class="search-icon" [icon]="faSearch"></fa-icon>
+                    <fa-icon class="search-icon" [icon]="faSearch"></fa-icon>
                 </button>
             </div>
         </div>
         <div class="col-12 row p-0 m-0 responsive-nav-icon-wrapper ">
             <div class="col-md-9 p-0 m-0">
-                <input type="text" placeholder="Search for Category/Books/Author/Price..." class="search-bar s-bartwo">
+                <input type="text" placeholder="Search for books / category / author/ price" class="search-bar s-bartwo">
             </div>
             <div class="col-md-3 p-0 m-0">
                 <button class="search-btn s-bartwo">Search</button>
             </div>
         </div>
-
     </div>
 </div>
