@@ -15,5 +15,25 @@
   }
   .tab-item-button-selected {
     background-color: #000000 !important;
+    box-shadow: -2px -2px 7px 0px #00000066;
+  }
+}
+.edit-book-component {
+  width: 100%;
+}
+.edit-author-component {
+  width: 100%;
+}
+.edit-category-component {
+  width: 100%;
+}
+@media (max-width: 666px) {
+  .tab-item-button {
+    width: 70px !important;
+  }
+}
+@media (max-width: 400px) {
+  .tab-item-button {
+    width: 70px !important;
   }
 }

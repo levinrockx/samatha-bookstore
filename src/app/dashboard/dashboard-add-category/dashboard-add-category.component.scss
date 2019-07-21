@@ -44,3 +44,24 @@
 .cancel-button {
   background-color: rgba(236, 19, 19, 0.8);
 }
+@media (max-width: 1200px) {
+  .inner-main {
+    padding-left: 10px !important;
+    padding-top: 30px !important;
+  }
+}
+@media (max-width: 768px) {
+  .inner-main {
+    padding-left: 10px !important;
+    padding-top: 0px !important;
+  }
+  .input-text {
+    font-size: 0.8rem !important;
+  }
+  .button-custom {
+    height: 36px !important;
+    width: 67px !important;
+    font-size: 0.8rem !important;
+    margin-left: 12px;
+  }
+}

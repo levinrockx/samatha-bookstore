@@ -1,0 +1,67 @@
+.main {
+  background-color: rgba(220, 220, 220, 0.25);
+}
+.heading {
+  font-size: 30px;
+  color: #1c1919;
+  padding-top: 25px;
+}
+.inner-main {
+  padding-left: 150px !important;
+  padding-top: 50px !important;
+}
+.form-main {
+  margin-bottom: 30px !important;
+}
+.input-text {
+  font-size: 20px;
+  display: flex;
+  align-items: center;
+}
+.input-custom {
+  border: 0;
+  width: 100%;
+  height: 45px;
+  border-radius: 6px;
+  background-color: #ffffff;
+}
+.submit-main {
+  display: flex;
+  justify-content: center;
+}
+.button-custom {
+  // width: 100px;
+  // height: 60px;
+  border-radius: 8px;
+  margin-left: 24px;
+  color: #ffffff;
+  border: 0px;
+  outline: 0;
+}
+.add-button {
+  background-color: #0bce59;
+}
+.cancel-button {
+  background-color: rgba(236, 19, 19, 0.8);
+}
+@media (max-width: 1200px) {
+  .inner-main {
+    padding-left: 10px !important;
+    padding-top: 30px !important;
+  }
+}
+@media (max-width: 768px) {
+  .inner-main {
+    padding-left: 0px !important;
+    padding-top: 0px !important;
+  }
+  .input-text {
+    font-size: 0.8rem !important;
+  }
+  .button-custom {
+    height: 36px !important;
+    width: 67px !important;
+    font-size: 0.8rem !important;
+    margin-left: 12px;
+  }
+}
