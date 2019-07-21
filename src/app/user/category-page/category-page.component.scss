@@ -1,0 +1,20 @@
+.category-main {
+  padding-bottom: 100px !important;
+}
+.category-card {
+  display: grid;
+  grid-template-columns: auto auto auto;
+}
+.book {
+  margin: 25px;
+}
+.category-heading {
+  padding-left: 25px;
+}
+.display-inline {
+  display: inline-block;
+}
+.category-heading-name {
+  padding: 0 10px;
+  font-size: 1.5rem;
+}
