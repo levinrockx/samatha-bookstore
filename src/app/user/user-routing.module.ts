@@ -10,14 +10,14 @@ const routes: Routes = [
     path: '',
     component: UserlandingComponent,
     children: [
-      // {
-      //   path: 'home',
-      //   component: HomeComponent,
-      // },
       {
         path: 'home',
-        component: CategoryPageComponent,
+        component: HomeComponent,
       },
+      // {
+      // //   path: 'home',
+      // //   component: CategoryPageComponent,
+      // // },
     ]
   }
 ];
