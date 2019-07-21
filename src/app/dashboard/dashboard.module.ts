@@ -5,6 +5,7 @@ import { DashboardlandingComponent } from './dashboardlanding/dashboardlanding.c
 import { DashboardSidebarComponent } from './dashboard-sidebar/dashboard-sidebar.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
+import { DataTablesModule } from 'angular-datatables';
 import { DashboardAddComponent } from './dashboard-add/dashboard-add.component';
 import { DashboardEditComponent } from './dashboard-edit/dashboard-edit.component';
 import { DashboardAddBookComponent } from './dashboard-add-book/dashboard-add-book.component';
@@ -31,6 +32,7 @@ import { DashboardEditCategoryComponent } from './dashboard-edit-category/dashbo
     CommonModule,
     DashboardRoutingModule,
     FontAwesomeModule,
+    DataTablesModule
   ]
 })
 export class DashboardModule { }

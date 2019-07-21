@@ -8,12 +8,14 @@ body {
   padding: 0 !important;
   font-family: DidactGothic !important;
   font-size: 0.9375rem !important;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
 }
 .custom-container {
   margin: 0 9% !important;
   width: 100% !important;
 }
-.custom-card{
+.custom-card {
   border: 0;
   box-shadow: 0 4px 17px 0 rgba(0, 0, 0, 0.16);
   background-color: #ffffff;
