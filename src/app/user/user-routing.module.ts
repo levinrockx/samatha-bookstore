@@ -7,6 +7,7 @@ import { ContactComponent } from './contact/contact.component';
 import { CategoryPageComponent } from './category-page/category-page.component';
 import { BookStoreComponent } from './book-store/book-store.component';
 import { SearchResultsComponent } from './search-results/search-results.component';
+import { BookPageComponent } from './book-page/book-page.component';
 const routes: Routes = [
   {
     path: '',
@@ -35,6 +36,10 @@ const routes: Routes = [
       {
         path: 'search',
         component: SearchResultsComponent,
+      },
+      {
+        path: 'bookpage',
+        component: BookPageComponent,
       },
     ]
   }

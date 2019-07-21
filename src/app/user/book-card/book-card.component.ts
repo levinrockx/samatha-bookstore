@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-book-card',
   templateUrl: './book-card.component.html',
@@ -10,9 +10,15 @@ export class BookCardComponent implements OnInit {
   public title = 'വി. ആർ. കൃഷ്ണയ്യർ -നീതിയുടെ പോരാളി';
   public author = 'samatha books';
   public price = '₹2,921';
-  constructor() { }
+  constructor(
+    private router: Router
+  ) { }
 
   ngOnInit() {
+  }
+
+  reRoute(route) {
+    this.router.navigate([route]);
   }
 
 }

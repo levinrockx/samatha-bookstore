@@ -15,9 +15,10 @@ import { CategorySliderComponent } from './category-slider/category-slider.compo
 import { CategoryPageComponent } from './category-page/category-page.component';
 import { BookStoreComponent } from './book-store/book-store.component';
 import { SearchResultsComponent } from './search-results/search-results.component';
+import { BookPageComponent } from './book-page/book-page.component';
 
 @NgModule({
-  declarations: [UserlandingComponent, HomeComponent, AboutComponent, ContactComponent, HeaderComponent, FooterComponent, BooksCardSliderComponent, BookCardComponent, CategorySliderComponent, CategoryPageComponent, BookStoreComponent, SearchResultsComponent],
+  declarations: [UserlandingComponent, HomeComponent, AboutComponent, ContactComponent, HeaderComponent, FooterComponent, BooksCardSliderComponent, BookCardComponent, CategorySliderComponent, CategoryPageComponent, BookStoreComponent, SearchResultsComponent, BookPageComponent],
   imports: [
     CommonModule,
     UserRoutingModule,
