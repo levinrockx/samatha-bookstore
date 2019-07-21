@@ -1,0 +1,31 @@
+.crad-main {
+  width: 100%;
+  height: 100%;
+}
+.book-img {
+  width: auto;
+  height: 200px;
+}
+.card-content {
+  padding-top: 10px !important;
+}
+.card-content-wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+  padding: 25px !important;
+}
+.card-content-text-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  text-align: center;
+}
+.title {
+  font-size: 0.7rem;
+}
+.author {
+  font-size: 0.68rem;
+}
+

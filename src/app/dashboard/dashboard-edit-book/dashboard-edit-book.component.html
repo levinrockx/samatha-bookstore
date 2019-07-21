@@ -1,1 +1,65 @@
-<p>dashboard-edit-book works!</p>
+<div class="row p-0 m-0 main">
+    <div class="custom-container">
+        <div class="heading">
+            Edit Book
+        </div>
+        <div class="row col-12 p-0 m-0 inner-main">
+            <div class="table-responsive table-responsive-sm table-responsive-md table-responsive-lg table-wrapper">
+                <table datatable [dtOptions]="dtOptions" class="row-border hover">
+                    <thead>
+                        <tr>
+                            <th>
+                                Id
+                            </th>
+                            <th>
+                                Title
+                            </th>
+                            <th>
+                                Edition
+                            </th>
+                            <th>
+                                Author
+                            </th>
+                            <th>
+                                Price
+                            </th>
+                            <th>
+                                Category
+                            </th>
+                            <th>
+                                Action
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                ചെമ്മണ്ണിലെ നാട്ടുവഴികൾ, ആലപ്പുഴയുടെ ചരിത്രം : സംസ്കാരം- മുന്നേറ്റം The History of
+                                Alappuzha: Travels on the roads of Red Clay
+                            </td>
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                Samatha Books Thrissur
+                            </td>
+                            <td>
+                                100
+                            </td>
+                            <td>
+                                Short Story
+                            </td>
+                            <td>
+                                <fa-icon [icon]="faPencilAlt" class="action-icon"></fa-icon>
+                                <fa-icon [icon]="faTrash" class="action-icon"></fa-icon>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
+            </div>
+        </div>
+    </div>
+</div>
