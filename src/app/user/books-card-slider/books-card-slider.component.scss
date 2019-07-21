@@ -1,11 +1,24 @@
+.book-card-main {
+  width: 100%;
+  margin-bottom: 50px !important;
+}
 .heading-card {
   height: 80px;
+  width: 100%;
   display: flex;
   align-items: center;
-  margin-bottom: 20px !important;
+  margin-bottom: 50px !important;
 }
-.heading{    
- font-size: 40px;
- padding-left: 43px !important;
- font-family: DidactGothic;
+.heading {
+  font-size: 40px;
+  color: #707070;
+  padding-left: 50px !important;
+  font-family: DidactGothic;
+}
+.slider-card {
+  width: 100%;
+  margin: 0 25px !important;
+}
+.item-card-main {
+  padding: 50px !important;
 }
