@@ -9,9 +9,13 @@ import { ContactComponent } from './contact/contact.component';
 import { HeaderComponent } from './header/header.component';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { FooterComponent } from './footer/footer.component';
+import { BooksCardSliderComponent } from './books-card-slider/books-card-slider.component';
+import { BookCardComponent } from './book-card/book-card.component';
+import { CategorySliderComponent } from './category-slider/category-slider.component';
+import { CategoryPageComponent } from './category-page/category-page.component';
 
 @NgModule({
-  declarations: [UserlandingComponent, HomeComponent, AboutComponent, ContactComponent, HeaderComponent, FooterComponent],
+  declarations: [UserlandingComponent, HomeComponent, AboutComponent, ContactComponent, HeaderComponent, FooterComponent, BooksCardSliderComponent, BookCardComponent, CategorySliderComponent, CategoryPageComponent],
   imports: [
     CommonModule,
     UserRoutingModule,
