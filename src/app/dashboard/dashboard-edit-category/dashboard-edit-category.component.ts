@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faPencilAlt, faTrash } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-dashboard-edit-category',
@@ -7,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class DashboardEditCategoryComponent implements OnInit {
   dtOptions: DataTables.Settings = {};
+  public faPencilAlt = faPencilAlt;
+  public faTrash = faTrash;
   constructor() { }
 
   ngOnInit() {

@@ -1,40 +1,40 @@
 <div class="row p-0 m-0 main">
-        <div class="custom-container">
-            <div class="heading">
-                Edit Book
-            </div>
-            <div class="row col-12 p-0 m-0 inner-main">
-                <div class="table-responsive table-responsive-sm table-responsive-md table-responsive-lg table-wrapper">
-                    <table datatable [dtOptions]="dtOptions" class="row-border hover">
-                        <thead>
-                            <tr>
-                                <th>
-                                    Id
-                                </th>
-                                <th>
-                                    Author Name
-                                </th>
-                                <th>
-                                    Action
-                                </th>
-                            </tr>
-                        </thead>
-                        <tbody>
-                            <tr>
-                                <td>
-                                    1
-                                </td>
-                                <td>
-                                    Samatha Books
-                                </td>
-                                <td>
-                                    <fa-icon [icon]=""></fa-icon>
-                                    <fa-icon [icon]=""></fa-icon>
-                                </td>
-                            </tr>
-                        </tbody>
-                    </table>
-                </div>
+    <div class="custom-container">
+        <div class="heading">
+            Edit Book
+        </div>
+        <div class="row col-12 p-0 m-0 inner-main">
+            <div class="table-responsive table-responsive-sm table-responsive-md table-responsive-lg table-wrapper">
+                <table datatable [dtOptions]="dtOptions" class="row-border hover">
+                    <thead>
+                        <tr>
+                            <th>
+                                Id
+                            </th>
+                            <th>
+                                Author Name
+                            </th>
+                            <th>
+                                Action
+                            </th>
+                        </tr>
+                    </thead>
+                    <tbody>
+                        <tr>
+                            <td>
+                                1
+                            </td>
+                            <td>
+                                Samatha Books
+                            </td>
+                            <td>
+                                <fa-icon [icon]="faPencilAlt" class="action-icon"></fa-icon>
+                                <fa-icon [icon]="faTrash" class="action-icon"></fa-icon>
+                            </td>
+                        </tr>
+                    </tbody>
+                </table>
             </div>
         </div>
     </div>
+</div>
