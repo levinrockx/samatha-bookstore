@@ -7,14 +7,14 @@
     <div class="custom-container">
         <div class=" row p-0 m-0 col-12 regular-header-main">
             <div class="col-4 p-0 logo-main">
-                <img src="assets/img/logosec.PNG" class="header-logo" alt="logo image">
+                <img (click)="reRoute('user/home')" src="assets/img/logosec.PNG" class="header-logo" alt="logo image">
             </div>
             <div class="col-8 navs p-0">
                 <div class=" row p-0 m-0 ">
-                    <div class=" col-3 header-btn">Home</div>
-                    <div class=" col-3 header-btn">About</div>
-                    <div class=" col-3 header-btn">Book-store</div>
-                    <div class=" col-3 header-btn">Contact</div>
+                    <div class=" col-3 header-btn" (click)="reRoute('user/home')"><span class="nav-item-link">Home</span></div>
+                    <div class=" col-3 header-btn" (click)="reRoute('user/about')"><span class="nav-item-link">About</span></div>
+                    <div class=" col-3 header-btn" (click)="reRoute('user/bookstore')"><span class="nav-item-link">Book-Store</span></div>
+                    <div class=" col-3 header-btn" (click)="reRoute('user/contact')"><span class="nav-item-link">Contact</span></div>
                 </div>
                 <div class="col-12 row p-0 m-0">
                     <div class="col-9 p-0 m-0">
@@ -30,10 +30,10 @@
             </div>
         </div>
         <div class="row col-12 p-0 m-0 header-responsive" [ngClass]="{'show-responsive-header': headerresponsivestatus}">
-            <div class="text-center col-12 nav-items">Home</div>
-            <div class="text-center col-12 nav-items">About</div>
-            <div class="text-center col-12 nav-items">Book-store</div>
-            <div class="text-center col-12 nav-items">Contact</div>
+            <div class="text-center col-12 nav-items" (click)="reRoute('user/home')">Home</div>
+            <div class="text-center col-12 nav-items" (click)="reRoute('user/about')">About</div>
+            <div class="text-center col-12 nav-items" (click)="reRoute('user/boookstore')">Book-store</div>
+            <div class="text-center col-12 nav-items" (click)="reRoute('user/contact')">Contact</div>
         </div>
         <div class="col-12 row p-0 m-0 responsive-nav-icon-wrapper ">
             <div class="col-9 p-0 m-0">

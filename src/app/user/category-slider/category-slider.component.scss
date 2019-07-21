@@ -4,11 +4,20 @@
 }
 .slider-card-main {
   width: 100%;
+  padding: 12px !important;
 }
 .card-icon {
   font-size: 55px;
-  padding: 0 22px;
 }
 .icon-name {
   font-size: 15px;
+}
+.item {
+  margin: 0 auto !important;
+  text-align: center;
+  transition: all 0.25s cubic-bezier(0.37, 0.31, 0.2, 0.85);
+}
+.item:hover {
+  color: #34e7e4;
+  cursor: pointer;
 }

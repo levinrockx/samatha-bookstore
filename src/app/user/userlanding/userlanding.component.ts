@@ -12,7 +12,7 @@ export class UserlandingComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-     this.router.navigate(['/user/home'])
+    //  this.router.navigate(['/user/home']);
   }
 
 }

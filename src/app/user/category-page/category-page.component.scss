@@ -18,6 +18,9 @@
   padding: 0 10px;
   font-size: 1.5rem;
 }
+.book-card-link {
+  cursor: pointer;
+}
 @media (max-width: 1300px) {
   .category-card {
     grid-template-columns: auto auto !important;

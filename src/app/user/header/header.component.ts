@@ -1,6 +1,6 @@
 import { Component, OnInit } from '@angular/core';
-import { faBars, faSearch  } from '@fortawesome/free-solid-svg-icons';
-
+import { faBars, faSearch } from '@fortawesome/free-solid-svg-icons';
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -10,13 +10,19 @@ export class HeaderComponent implements OnInit {
   public headerresponsivestatus: Boolean = false;
   public faBars = faBars;
   public faSearch = faSearch;
-  constructor() { }
+  constructor(
+    private router: Router
+  ) { }
 
   ngOnInit() {
   }
 
   responsiveHeader() {
     this.headerresponsivestatus = !this.headerresponsivestatus;
+  }
+
+  reRoute(route) {
+    this.router.navigate([route]);
   }
 
 }
