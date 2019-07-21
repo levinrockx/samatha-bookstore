@@ -6,7 +6,7 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./books-card-slider.component.scss']
 })
 export class BooksCardSliderComponent implements OnInit {
-
+  public cardHeading = 'Popular books';
   constructor() { }
 
   ngOnInit() {
