@@ -1,8 +1,20 @@
-<div class="book-card-main">
+<div class="row p-0 m-0 book-card-main">
     <div class="custom-card heading-card">
         <div class="heading">
             {{cardHeading}}
         </div>
     </div>
-    <div class="custom-card slider"></div>
+    <div class="row p-0 m-0 custom-card slider-card">
+        <div class="col-12 row p-0 m-0 book-cards-wrapper">
+            <div class="col-4 p-0 m-0 item-card-main">
+                <app-book-card></app-book-card>
+            </div>
+            <div class="col-4 p-0 m-0 item-card-main">
+                <app-book-card></app-book-card>
+            </div>
+            <div class="col-4 p-0 m-0 item-card-main">
+                <app-book-card></app-book-card>
+            </div>
+        </div>
+    </div>
 </div>
