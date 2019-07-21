@@ -21,3 +21,11 @@
   color: #34e7e4;
   cursor: pointer;
 }
+@media (max-width: 992px) {
+  .card-icon {
+    font-size: 40px !important;
+  }
+  .icon-name{
+    font-size: 10px !important;
+  }
+}
