@@ -6,10 +6,13 @@ import { Component, OnInit } from '@angular/core';
   styleUrls: ['./dashboard-edit-category.component.scss']
 })
 export class DashboardEditCategoryComponent implements OnInit {
-
+  dtOptions: DataTables.Settings = {};
   constructor() { }
 
   ngOnInit() {
+    this.dtOptions = {
+      pagingType: 'full_numbers'
+    };
   }
 
 }
