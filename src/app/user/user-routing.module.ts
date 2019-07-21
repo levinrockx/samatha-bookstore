@@ -14,6 +14,11 @@ const routes: Routes = [
     component: UserlandingComponent,
     children: [
       {
+        path: '',
+        redirectTo: "home",
+        pathMatch: "full",
+      },
+      {
         path: 'home',
         component: HomeComponent,
       },

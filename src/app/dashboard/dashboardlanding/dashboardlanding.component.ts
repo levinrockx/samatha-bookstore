@@ -13,7 +13,7 @@ export class DashboardlandingComponent implements OnInit {
   ) { }
 
   ngOnInit() {
-    this.router.navigate(['admin/dashboard']);
+    // this.router.navigate(['admin/dashboard']);
   }
 
 }

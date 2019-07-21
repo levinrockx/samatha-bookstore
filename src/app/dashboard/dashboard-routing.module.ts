@@ -9,6 +9,11 @@ const routes: Routes = [
     component: DashboardlandingComponent,
     children: [
       {
+        path: '',
+        redirectTo: "dashboard",
+        pathMatch: "full",
+      },
+      {
         path: 'dashboard',
         component: DashboardComponent,
       }
