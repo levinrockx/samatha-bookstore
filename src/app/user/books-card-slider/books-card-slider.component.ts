@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, Input, OnChanges, SimpleChanges } from '@angular/core';
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
@@ -6,13 +6,18 @@ import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
   templateUrl: './books-card-slider.component.html',
   styleUrls: ['./books-card-slider.component.scss']
 })
-export class BooksCardSliderComponent implements OnInit {
-  public cardHeading = 'Popular books';
+export class BooksCardSliderComponent implements OnInit, OnChanges {
+  public cardHeading;
   public faArrowLeft = faArrowLeft;
   public faArrowRight = faArrowRight;
+  @Input('books') bookObj: any;
   constructor() { }
 
   ngOnInit() {
+  }
+
+  ngOnChanges(changes: SimpleChanges) {
+    this.cardHeading = this.bookObj['category_name'];
   }
 
 }
