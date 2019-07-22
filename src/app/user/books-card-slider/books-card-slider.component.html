@@ -1,31 +1,25 @@
-<div class="row p-0 m-0 book-card-main">
+<div class="row p-0 m-0 book-card-main" (window:resize)="setSliderShowVar($event)" #sliderMain>
     <div class="custom-card heading-card">
         <div class="heading">
             {{cardHeading}}
         </div>
     </div>
     <div class="row p-0 m-0 custom-card slider-card">
-        <div class="col-12 p-0 m-0 row slider-buttons-main">
+        <div *ngIf="bookList.length > 2" class="col-12 p-0 m-0 row slider-buttons-main">
             <div class="col-2 p-0 m-0 slider-button-left-main">
-                <div class="row p-0 m-0 arrow-icon-wrapper">
+                <div (click)="leftArrowClick()" class="row p-0 m-0 arrow-icon-wrapper">
                     <fa-icon [icon]="faArrowLeft"></fa-icon>
                 </div>
             </div>
             <div class="col-2 p-0 m-0 slider-button-right-main">
-                <div class="row p-0 m-0 arrow-icon-wrapper">
+                <div (click)="rightArrowClick()" class="row p-0 m-0 arrow-icon-wrapper">
                     <fa-icon [icon]="faArrowRight"></fa-icon>
                 </div>
             </div>
         </div>
         <div class="col-12 row p-0 m-0 book-cards-wrapper">
-            <div class="col-4 p-0 m-0 item-card-main">
-                <app-book-card [book]="bookObj['books'][0]" class="book-card-link"></app-book-card>
-            </div>
-            <div class="col-4 p-0 m-0 item-card-main">
-                <app-book-card [book]="bookObj['books'][1]" class="book-card-link"></app-book-card>
-            </div>
-            <div class="col-4 p-0 m-0 item-card-main">
-                <app-book-card [book]="bookObj['books'][2]" class="book-card-link"></app-book-card>
+            <div *ngFor="let book of sliderList" class="col-12 col-sm-6 col-md-4 p-0 m-0 item-card-main">
+                <app-book-card [book]="book" class="book-card-link"></app-book-card>
             </div>
         </div>
     </div>

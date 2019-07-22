@@ -1,4 +1,4 @@
-import { Component, OnInit, Input, OnChanges, SimpleChanges } from '@angular/core';
+import { Component, OnInit, Input, OnChanges, SimpleChanges, ElementRef, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
 @Component({
   selector: 'app-book-card',
@@ -10,7 +10,10 @@ export class BookCardComponent implements OnInit, OnChanges {
   public title;
   public author;
   public price;
+  public imgWidth;
+  public imgPadding = 15;
   @Input('book') bookObj: any;
+  @ViewChild('cardMain', { static: true }) cardMain: ElementRef;
   constructor(
     private router: Router
   ) { }
@@ -20,6 +23,11 @@ export class BookCardComponent implements OnInit, OnChanges {
 
   ngOnChanges(changes: SimpleChanges) {
     this.setBookData();
+    this.setImgWidth();
+  }
+
+  setImgWidth() {
+    this.imgWidth = this.cardMain.nativeElement.offsetWidth;
   }
 
   setBookData() {

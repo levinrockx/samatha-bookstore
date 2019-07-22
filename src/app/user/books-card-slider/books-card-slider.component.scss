@@ -27,10 +27,11 @@
 }
 .book-card-link {
   cursor: pointer;
+  transition: 0.7s;
 }
 // slider css
 .slider-buttons-main {
-  width: 85%;
+  width: 88%;
   display: inline-block;
   position: absolute;
 }
@@ -58,3 +59,9 @@
   font-size: 1.8rem;
 }
 // slider css ends
+@media (max-width: 576px) {
+  .heading {
+    padding-left: 25px !important;
+    font-size: 25px !important;
+  }
+}

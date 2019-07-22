@@ -6,8 +6,7 @@
   box-shadow: 0 14px 28px rgba(0, 0, 0, 0.25), 0 10px 10px rgba(0, 0, 0, 0.22);
 }
 .book-img {
-  width: auto;
-  height: 160px;
+  height: auto;
 }
 .card-content {
   padding-top: 10px !important;
@@ -17,7 +16,8 @@
   justify-content: center;
   align-items: center;
   width: 100%;
-  padding: 25px !important;
+  // padding: 25px !important;
+  padding: 10px 0px !important;
 }
 .card-content-text-wrapper {
   width: 100%;
@@ -27,12 +27,13 @@
 }
 .title {
   font-size: 0.7rem;
+  word-break: break-all;
 }
 .author {
   font-size: 0.68rem;
 }
 @media (max-width: 400px) {
   .book-img {
-    height: 118px !important;
+    height: auto !important;
   }
 }
