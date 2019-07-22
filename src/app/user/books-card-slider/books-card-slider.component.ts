@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
 
 @Component({
   selector: 'app-books-card-slider',
@@ -7,6 +8,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BooksCardSliderComponent implements OnInit {
   public cardHeading = 'Popular books';
+  public faArrowLeft = faArrowLeft;
+  public faArrowRight = faArrowRight;
   constructor() { }
 
   ngOnInit() {

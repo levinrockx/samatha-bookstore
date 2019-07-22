@@ -18,6 +18,9 @@
 .slider-card {
   width: 100%;
   margin: 0 25px !important;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .item-card-main {
   padding: 50px !important;
@@ -25,3 +28,33 @@
 .book-card-link {
   cursor: pointer;
 }
+// slider css
+.slider-buttons-main {
+  width: 85%;
+  display: inline-block;
+  position: absolute;
+}
+.slider-button-left-main {
+  display: inline-block;
+  width: 79px;
+  height: 64px;
+  border-radius: 3px;
+  background-color: #a29b9b;
+}
+.slider-button-right-main {
+  float: right;
+  width: 79px;
+  height: 64px;
+  border-radius: 3px;
+  background-color: #a29b9b;
+}
+.arrow-icon-wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100%;
+  color: #ffffff;
+  cursor: pointer;
+  font-size: 1.8rem;
+}
+// slider css ends
