@@ -126,7 +126,7 @@
     padding-bottom: 0px !important;
   }
 }
-@media (max-width: 767px) {
+@media (min-width: 320px) {
   .s-bartwo {
     display: none;
   }
@@ -137,5 +137,8 @@
 @media (min-width: 768px) {
   .s-barone {
     display: none;
+  }
+  .s-bartwo {
+    display: initial;
   }
 }
