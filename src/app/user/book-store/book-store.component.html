@@ -4,9 +4,9 @@
             Book store
         </div>
         <div class="custom-cantaine book-card-store p-0 m-0">
-            <app-books-card-slider class="book-card-store"></app-books-card-slider>
-            <app-books-card-slider class="book-card-store"></app-books-card-slider>
-            <app-books-card-slider class="book-card-store"></app-books-card-slider>
+            <ng-container *ngIf="categoryList.length !== 0">
+                <app-books-card-slider *ngFor="let categoryobj of categoryList" [books]="categoryobj" class="book-card-store"></app-books-card-slider>
+            </ng-container>
         </div>
     </div>
 </div>

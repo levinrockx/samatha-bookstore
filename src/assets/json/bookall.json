@@ -14,7 +14,7 @@
                         "author": "value",
                         "category": "category-one",
                         "price": "value",
-                        "image": "value",
+                        "image": "book.png",
                         "edition": "value"
                     },
                     {
@@ -26,7 +26,7 @@
                         "author": "value",
                         "category": "category-one",
                         "price": "value",
-                        "image": "value",
+                        "image": "book.png",
                         "edition": "value"
                     },
                     {
@@ -38,7 +38,7 @@
                         "author": "value",
                         "category": "category-one",
                         "price": "value",
-                        "image": "value",
+                        "image": "book.png",
                         "edition": "value"
                     }
                 ]
@@ -55,7 +55,7 @@
                         "author": "value",
                         "category": "category-two",
                         "price": "value",
-                        "image": "value",
+                        "image": "book.png",
                         "edition": "value"
                     },
                     {
@@ -67,7 +67,7 @@
                         "author": "value",
                         "category": "category-two",
                         "price": "value",
-                        "image": "value",
+                        "image": "book.png",
                         "edition": "value"
                     },
                     {
@@ -79,7 +79,7 @@
                         "author": "value",
                         "category": "category-two",
                         "price": "value",
-                        "image": "value",
+                        "image": "book.png",
                         "edition": "value"
                     },
                     {
@@ -91,7 +91,7 @@
                         "author": "value",
                         "category": "category-two",
                         "price": "value",
-                        "image": "value",
+                        "image": "book.png",
                         "edition": "value"
                     },
                     {
@@ -103,7 +103,7 @@
                         "author": "value",
                         "category": "category-two",
                         "price": "value",
-                        "image": "value",
+                        "image": "book.png",
                         "edition": "value"
                     },
                     {
@@ -115,7 +115,7 @@
                         "author": "value",
                         "category": "category-two",
                         "price": "value",
-                        "image": "value",
+                        "image": "book.png",
                         "edition": "value"
                     },
                     {
@@ -127,7 +127,7 @@
                         "author": "value",
                         "category": "category-two",
                         "price": "value",
-                        "image": "value",
+                        "image": "book.png",
                         "edition": "value"
                     },
                     {
@@ -139,7 +139,7 @@
                         "author": "value",
                         "category": "category-two",
                         "price": "value",
-                        "image": "value",
+                        "image": "book.png",
                         "edition": "value"
                     }
                 ]
@@ -156,7 +156,7 @@
                         "author": "value",
                         "category": "category-three",
                         "price": "value",
-                        "image": "value",
+                        "image": "book.png",
                         "edition": "value"
                     },
                     {
@@ -168,7 +168,7 @@
                         "author": "value",
                         "category": "category-three",
                         "price": "value",
-                        "image": "value",
+                        "image": "book.png",
                         "edition": "value"
                     },
                     {
@@ -180,7 +180,7 @@
                         "author": "value",
                         "category": "category-three",
                         "price": "value",
-                        "image": "value",
+                        "image": "book.png",
                         "edition": "value"
                     },
                     {
@@ -192,7 +192,7 @@
                         "author": "value",
                         "category": "category-three",
                         "price": "value",
-                        "image": "value",
+                        "image": "book.png",
                         "edition": "value"
                     },
                     {
@@ -204,7 +204,7 @@
                         "author": "value",
                         "category": "category-three",
                         "price": "value",
-                        "image": "value",
+                        "image": "book.png",
                         "edition": "value"
                     },
                     {
@@ -216,7 +216,7 @@
                         "author": "value",
                         "category": "category-three",
                         "price": "value",
-                        "image": "value",
+                        "image": "book.png",
                         "edition": "value"
                     },
                     {
@@ -228,7 +228,7 @@
                         "author": "value",
                         "category": "category-three",
                         "price": "value",
-                        "image": "value",
+                        "image": "book.png",
                         "edition": "value"
                     },
                     {
@@ -240,7 +240,7 @@
                         "author": "value",
                         "category": "category-three",
                         "price": "value",
-                        "image": "value",
+                        "image": "book.png",
                         "edition": "value"
                     },
                     {
@@ -252,7 +252,7 @@
                         "author": "value",
                         "category": "category-three",
                         "price": "value",
-                        "image": "value",
+                        "image": "book.png",
                         "edition": "value"
                     },
                     {
@@ -264,7 +264,7 @@
                         "author": "value",
                         "category": "category-three",
                         "price": "value",
-                        "image": "value",
+                        "image": "book.png",
                         "edition": "value"
                     }
                 ]
