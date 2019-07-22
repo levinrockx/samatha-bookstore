@@ -1,0 +1,67 @@
+.about-main {
+  margin-bottom: 100px !important;
+}
+.about-heading {
+  width: 100%;
+  font-size: 40px;
+  font-family: DidactGothic;
+  color: rgba(128, 128, 128, 0.76);
+  padding-left: 50px;
+  margin-bottom: 50px;
+}
+.about-grid {
+  display: grid;
+  grid-template-columns: auto auto;
+}
+.about-grid-content {
+  padding: 50px;
+}
+.about-grid-contents {
+  font-size: 20px;
+  font-family: DidactGothic;
+  color: rgba(128, 128, 128, 0.76);
+}
+.about-grid-heading {
+  font-size: 20px;
+  font-family: DidactGothic;
+  color: rgba(128, 128, 128, 0.76);
+  padding-bottom: 50px;
+}
+@media (max-width: 768px) {
+  .about-grid {
+    grid-template-columns: auto;
+  }
+  .about-heading {
+    font-size: 2.45rem;
+    padding-left: 40px;
+  }
+  .about-grid-heading {
+    font-size: 20px;
+    padding-bottom: 40px;
+  }
+  .about-grid-content {
+    padding: 40px;
+  }
+  .about-grid-contents {
+    font-size: 20px;
+  }
+}
+@media (max-width: 576px) {
+  .about-grid {
+    grid-template-columns: auto;
+  }
+  .about-heading {
+    font-size: 2rem;
+    padding-left: 30px;
+  }
+  .about-grid-heading {
+    font-size: 1rem;
+    padding-bottom: 30px;
+  }
+  .about-grid-content {
+    padding: 30px;
+  }
+  .about-grid-contents {
+    font-size: 1rem;
+  }
+}
