@@ -14,6 +14,7 @@ import { DashboardAddAuthorComponent } from './dashboard-add-author/dashboard-ad
 import { DashboardEditAuthorComponent } from './dashboard-edit-author/dashboard-edit-author.component';
 import { DashboardAddCategoryComponent } from './dashboard-add-category/dashboard-add-category.component';
 import { DashboardEditCategoryComponent } from './dashboard-edit-category/dashboard-edit-category.component';
+import { VersionComponent } from './version/version.component';
 @NgModule({
   declarations: [
     DashboardlandingComponent,
@@ -26,7 +27,8 @@ import { DashboardEditCategoryComponent } from './dashboard-edit-category/dashbo
     DashboardAddAuthorComponent,
     DashboardEditAuthorComponent,
     DashboardAddCategoryComponent,
-    DashboardEditCategoryComponent
+    DashboardEditCategoryComponent,
+    VersionComponent
   ],
   imports: [
     CommonModule,
