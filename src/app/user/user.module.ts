@@ -16,6 +16,7 @@ import { CategoryPageComponent } from './category-page/category-page.component';
 import { BookStoreComponent } from './book-store/book-store.component';
 import { SearchResultsComponent } from './search-results/search-results.component';
 import { BookPageComponent } from './book-page/book-page.component';
+<<<<<<< HEAD
 import { FeaturedBookComponent } from './featured-book/featured-book.component';
 import { NguiMapModule } from '@ngui/map';
 
@@ -34,11 +35,15 @@ import { NguiMapModule } from '@ngui/map';
     SearchResultsComponent,
     BookPageComponent,
     FeaturedBookComponent ],
+=======
+
+@NgModule({
+  declarations: [UserlandingComponent, HomeComponent, AboutComponent, ContactComponent, HeaderComponent, FooterComponent, BooksCardSliderComponent, BookCardComponent, CategorySliderComponent, CategoryPageComponent, BookStoreComponent, SearchResultsComponent, BookPageComponent],
+>>>>>>> parent of a480394... Merge branch 'dev-ashwin'
   imports: [
     CommonModule,
     UserRoutingModule,
-    FontAwesomeModule,
-    NguiMapModule.forRoot({ apiUrl: 'https://maps.google.com/maps/api/js?key=AIzaSyD8eyWbk1ah4lArbrPYmj6gZS6YfphOZjw' })
+    FontAwesomeModule
   ]
 })
 export class UserModule { }
