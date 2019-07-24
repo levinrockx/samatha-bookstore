@@ -31,14 +31,15 @@ export class DashboardAddBookComponent implements OnInit {
     'author': '',
     'category': '',
     'price': '',
-    'edition': '',
-    'image': ''
+    'edition': ''
   };
 
   public dropdownOptions = {
     'author': [],
     'category': []
   };
+
+  public fileSelected: File = null;
 
   constructor(
     private config: ConfigService,
@@ -64,12 +65,42 @@ export class DashboardAddBookComponent implements OnInit {
     });
   }
 
+  selectedFile(event) {
+    console.log(event);
+    this.fileSelected = <File>event.target.files[0];
+  }
+
   addBook() {
+    this.addBookImage();
+  }
+
+  addBookImage() {
+    const url = `${this.config.API_ENDPOINT}${this.config.API_ENDPOINT_NAMES.addbookimage}`;
+    const formData = new FormData();
+    formData.append('file', this.fileSelected, this.fileSelected.name);
+    this.httpLayer.post(url, formData).subscribe((response) => {
+      if (response['status'] === 'success') {
+        this.addBookDetails();
+      }
+    });
+  }
+
+  addBookDetails() {
     const url = `${this.config.API_ENDPOINT}${this.config.API_ENDPOINT_NAMES.addbook}`;
-    let body = this.book;
-    this.httpLayer.post(url, body).subscribe((response)=>{
-      console.log(response);
-    })
+    const body = {
+      "title": this.book['title'],
+      "description": this.book['description'],
+      "author": this.book['author']['itemName'],
+      "category": this.book['category'][0]['itemName'],
+      "price": this.book['price'],
+      "image": this.fileSelected.name,
+      "edition": this.book['edition']
+    }
+    this.httpLayer.post(url, body).subscribe((response) => {
+      if (response['status'] === 'success') {
+        console.log(response);
+      }
+    });
   }
 
 }

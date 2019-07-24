@@ -11,6 +11,7 @@ export class ConfigService {
     'bookall': "/bookall",
     'addcategory': "/addcategory",
     'addauthor': "/addauthor",
+    'addbookimage': "/addbookimage",
     'addbook': "/addbook",
     'authorall': "/authorall",
     'categoryall': "/categoryall",
