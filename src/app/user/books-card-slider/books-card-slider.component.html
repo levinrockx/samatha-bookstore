@@ -1,4 +1,4 @@
-<div class="row p-0 m-0 book-card-main" (window:resize)="setSliderShowVar($event)" #sliderMain>
+<div class="row p-0 m-0 book-card-main" (window:resize)="setSliderShowVar()" #sliderMain>
     <div class="custom-card heading-card">
         <div class="heading">
             {{cardHeading}}
@@ -18,7 +18,7 @@
             </div>
         </div>
         <div class="col-12 row p-0 m-0 book-cards-wrapper">
-            <div *ngFor="let book of sliderList" class="col-12 col-sm-6 col-md-4 p-0 m-0 item-card-main">
+            <div [@bounceIn]="bounceIn" *ngFor="let book of sliderList" class="col-12 col-sm-6 col-md-4 p-0 m-0 item-card-main">
                 <app-book-card [book]="book" class="book-card-link"></app-book-card>
             </div>
         </div>

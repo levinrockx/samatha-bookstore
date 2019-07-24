@@ -1,12 +1,19 @@
 import { Component, OnInit, Input, OnChanges, SimpleChanges, ElementRef, ViewChild } from '@angular/core';
 import { faArrowLeft, faArrowRight } from '@fortawesome/free-solid-svg-icons';
-
+import { trigger, transition, useAnimation } from '@angular/animations';
+import { bounceIn } from 'ng-animate';
+import { bounceOut } from 'ng-animate';
 @Component({
   selector: 'app-books-card-slider',
   templateUrl: './books-card-slider.component.html',
-  styleUrls: ['./books-card-slider.component.scss']
+  styleUrls: ['./books-card-slider.component.scss'],
+  animations: [
+    trigger('bounceIn', [transition('* => *', useAnimation(bounceIn))]),
+    trigger('bounceOut', [transition('* => *', useAnimation(bounceOut))])
+  ],
 })
 export class BooksCardSliderComponent implements OnInit, OnChanges {
+  public bounceIn: any;
   public cardHeading;
   public faArrowLeft = faArrowLeft;
   public faArrowRight = faArrowRight;

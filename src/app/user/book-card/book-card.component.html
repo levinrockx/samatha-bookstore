@@ -1,15 +1,15 @@
-<div (click)="reRoute('user/bookpage')" class="row p-0 m-0 custom-card card-main" (window:resize)="setImgWidth($event)"
+<div (click)="reRoute('user/bookpage')" class="row p-0 m-0 custom-card card-main" (window:resize)="setImgWidth()"
     #cardMain>
     <div class="row p-0 m-0 card-content-wrapper">
         <img src="{{imagePath}}" class="book-img" [ngStyle]="{'width.px': imgWidth - imgPadding }">
         <div class="row p-0 m-0 card-content">
-            <div class="row p-0 m-0 title card-content-text-wrapper">
+            <div class="price row p-0 m-0 card-content-text-wrapper">
                 {{title}}
             </div>
             <div class="author row p-0 m-0 card-content-text-wrapper">
                 {{author}}
             </div>
-            <div class="price row p-0 m-0 card-content-text-wrapper">
+            <div class="author row p-0 m-0 card-content-text-wrapper">
                 {{price}}
             </div>
         </div>

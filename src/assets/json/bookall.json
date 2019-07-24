@@ -9,11 +9,11 @@
                         "_id": {
                             "$oid": "5d3489d7fd78d5965f0e0536"
                         },
-                        "title": "value",
+                        "title": "Book Title",
                         "desc": "value",
-                        "author": "value",
+                        "author": "Author",
                         "category": "category-one",
-                        "price": "value",
+                        "price": "100",
                         "image": "book.png",
                         "edition": "value"
                     },
@@ -21,11 +21,11 @@
                         "_id": {
                             "$oid": "5d3489d7fd78d5965f0e0537"
                         },
-                        "title": "value",
+                        "title": "Book Title",
                         "desc": "value",
-                        "author": "value",
+                        "author": "Author",
                         "category": "category-one",
-                        "price": "value",
+                        "price": "100",
                         "image": "book.png",
                         "edition": "value"
                     },
@@ -33,11 +33,11 @@
                         "_id": {
                             "$oid": "5d3489d7fd78d5965f0e0538"
                         },
-                        "title": "value",
+                        "title": "Book Title",
                         "desc": "value",
-                        "author": "value",
+                        "author": "Author",
                         "category": "category-one",
-                        "price": "value",
+                        "price": "100",
                         "image": "book.png",
                         "edition": "value"
                     }
@@ -50,11 +50,11 @@
                         "_id": {
                             "$oid": "5d348a39fd78d5965f0e0539"
                         },
-                        "title": "value",
+                        "title": "Book Title",
                         "desc": "value",
-                        "author": "value",
+                        "author": "Author",
                         "category": "category-two",
-                        "price": "value",
+                        "price": "100",
                         "image": "book.png",
                         "edition": "value"
                     },
@@ -62,11 +62,11 @@
                         "_id": {
                             "$oid": "5d348a39fd78d5965f0e053a"
                         },
-                        "title": "value",
+                        "title": "Book Title",
                         "desc": "value",
-                        "author": "value",
+                        "author": "Author",
                         "category": "category-two",
-                        "price": "value",
+                        "price": "100",
                         "image": "book.png",
                         "edition": "value"
                     },
@@ -74,11 +74,11 @@
                         "_id": {
                             "$oid": "5d348a39fd78d5965f0e053b"
                         },
-                        "title": "value",
+                        "title": "Book Title",
                         "desc": "value",
-                        "author": "value",
+                        "author": "Author",
                         "category": "category-two",
-                        "price": "value",
+                        "price": "100",
                         "image": "book.png",
                         "edition": "value"
                     },
@@ -86,11 +86,11 @@
                         "_id": {
                             "$oid": "5d348a39fd78d5965f0e053c"
                         },
-                        "title": "value",
+                        "title": "Book Title",
                         "desc": "value",
-                        "author": "value",
+                        "author": "Author",
                         "category": "category-two",
-                        "price": "value",
+                        "price": "100",
                         "image": "book.png",
                         "edition": "value"
                     },
@@ -98,11 +98,11 @@
                         "_id": {
                             "$oid": "5d348a39fd78d5965f0e053d"
                         },
-                        "title": "value",
+                        "title": "Book Title",
                         "desc": "value",
-                        "author": "value",
+                        "author": "Author",
                         "category": "category-two",
-                        "price": "value",
+                        "price": "100",
                         "image": "book.png",
                         "edition": "value"
                     },
@@ -110,11 +110,11 @@
                         "_id": {
                             "$oid": "5d348a39fd78d5965f0e053e"
                         },
-                        "title": "value",
+                        "title": "Book Title",
                         "desc": "value",
-                        "author": "value",
+                        "author": "Author",
                         "category": "category-two",
-                        "price": "value",
+                        "price": "100",
                         "image": "book.png",
                         "edition": "value"
                     },
@@ -122,11 +122,11 @@
                         "_id": {
                             "$oid": "5d348a39fd78d5965f0e053f"
                         },
-                        "title": "value",
+                        "title": "Book Title",
                         "desc": "value",
-                        "author": "value",
+                        "author": "Author",
                         "category": "category-two",
-                        "price": "value",
+                        "price": "100",
                         "image": "book.png",
                         "edition": "value"
                     },
@@ -134,11 +134,11 @@
                         "_id": {
                             "$oid": "5d348a39fd78d5965f0e0540"
                         },
-                        "title": "value",
+                        "title": "Book Title",
                         "desc": "value",
-                        "author": "value",
+                        "author": "Author",
                         "category": "category-two",
-                        "price": "value",
+                        "price": "100",
                         "image": "book.png",
                         "edition": "value"
                     }
@@ -151,11 +151,11 @@
                         "_id": {
                             "$oid": "5d348a7bfd78d5965f0e0541"
                         },
-                        "title": "value",
+                        "title": "Book Title",
                         "desc": "value",
-                        "author": "value",
+                        "author": "Author",
                         "category": "category-three",
-                        "price": "value",
+                        "price": "100",
                         "image": "book.png",
                         "edition": "value"
                     },
@@ -163,11 +163,11 @@
                         "_id": {
                             "$oid": "5d348a7bfd78d5965f0e0542"
                         },
-                        "title": "value",
+                        "title": "Book Title",
                         "desc": "value",
-                        "author": "value",
+                        "author": "Author",
                         "category": "category-three",
-                        "price": "value",
+                        "price": "100",
                         "image": "book.png",
                         "edition": "value"
                     },
@@ -175,11 +175,11 @@
                         "_id": {
                             "$oid": "5d348a7bfd78d5965f0e0543"
                         },
-                        "title": "value",
+                        "title": "Book Title",
                         "desc": "value",
-                        "author": "value",
+                        "author": "Author",
                         "category": "category-three",
-                        "price": "value",
+                        "price": "100",
                         "image": "book.png",
                         "edition": "value"
                     },
@@ -187,11 +187,11 @@
                         "_id": {
                             "$oid": "5d348a7bfd78d5965f0e0544"
                         },
-                        "title": "value",
+                        "title": "Book Title",
                         "desc": "value",
-                        "author": "value",
+                        "author": "Author",
                         "category": "category-three",
-                        "price": "value",
+                        "price": "100",
                         "image": "book.png",
                         "edition": "value"
                     },
@@ -199,11 +199,11 @@
                         "_id": {
                             "$oid": "5d348a7bfd78d5965f0e0545"
                         },
-                        "title": "value",
+                        "title": "Book Title",
                         "desc": "value",
-                        "author": "value",
+                        "author": "Author",
                         "category": "category-three",
-                        "price": "value",
+                        "price": "100",
                         "image": "book.png",
                         "edition": "value"
                     },
@@ -211,11 +211,11 @@
                         "_id": {
                             "$oid": "5d348a7bfd78d5965f0e0546"
                         },
-                        "title": "value",
+                        "title": "Book Title",
                         "desc": "value",
-                        "author": "value",
+                        "author": "Author",
                         "category": "category-three",
-                        "price": "value",
+                        "price": "100",
                         "image": "book.png",
                         "edition": "value"
                     },
@@ -223,11 +223,11 @@
                         "_id": {
                             "$oid": "5d348a7bfd78d5965f0e0547"
                         },
-                        "title": "value",
+                        "title": "Book Title",
                         "desc": "value",
-                        "author": "value",
+                        "author": "Author",
                         "category": "category-three",
-                        "price": "value",
+                        "price": "100",
                         "image": "book.png",
                         "edition": "value"
                     },
@@ -235,11 +235,11 @@
                         "_id": {
                             "$oid": "5d348a7bfd78d5965f0e0548"
                         },
-                        "title": "value",
+                        "title": "Book Title",
                         "desc": "value",
-                        "author": "value",
+                        "author": "Author",
                         "category": "category-three",
-                        "price": "value",
+                        "price": "100",
                         "image": "book.png",
                         "edition": "value"
                     },
@@ -247,11 +247,11 @@
                         "_id": {
                             "$oid": "5d348a7bfd78d5965f0e0549"
                         },
-                        "title": "value",
+                        "title": "Book Title",
                         "desc": "value",
-                        "author": "value",
+                        "author": "Author",
                         "category": "category-three",
-                        "price": "value",
+                        "price": "100",
                         "image": "book.png",
                         "edition": "value"
                     },
@@ -259,11 +259,11 @@
                         "_id": {
                             "$oid": "5d348a7bfd78d5965f0e054a"
                         },
-                        "title": "value",
+                        "title": "Book Title",
                         "desc": "value",
-                        "author": "value",
+                        "author": "Author",
                         "category": "category-three",
-                        "price": "value",
+                        "price": "100",
                         "image": "book.png",
                         "edition": "value"
                     }

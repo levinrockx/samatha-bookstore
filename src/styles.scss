@@ -17,8 +17,8 @@ body {
 }
 .custom-card {
   border: 0;
-  // box-shadow: 0 4px 17px 0 rgba(0, 0, 0, 0.16);
-  box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
+  box-shadow: 0 4px 17px 0 rgba(0, 0, 0, 0.16);
+  // box-shadow: 0 3px 6px rgba(0, 0, 0, 0.16), 0 3px 6px rgba(0, 0, 0, 0.23);
   background-color: #ffffff;
   transition: all 0.3s cubic-bezier(0.25, 0.8, 0.25, 1);
 }

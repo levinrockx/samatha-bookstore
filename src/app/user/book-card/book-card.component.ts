@@ -1,11 +1,17 @@
 import { Component, OnInit, Input, OnChanges, SimpleChanges, ElementRef, ViewChild } from '@angular/core';
+import { trigger, transition, useAnimation } from '@angular/animations';
+import { bounce } from 'ng-animate';
 import { Router } from '@angular/router';
 @Component({
   selector: 'app-book-card',
   templateUrl: './book-card.component.html',
-  styleUrls: ['./book-card.component.scss']
+  styleUrls: ['./book-card.component.scss'],
+  animations: [
+    trigger('bounceOut', [transition('* => *', useAnimation(bounce))])
+  ],
 })
 export class BookCardComponent implements OnInit, OnChanges {
+  public bounce: any;
   public imagePath;
   public title;
   public author;
@@ -34,7 +40,7 @@ export class BookCardComponent implements OnInit, OnChanges {
     this.imagePath = `assets/img/${this.bookObj['image']}`;
     this.title = this.bookObj['title'];
     this.author = this.bookObj['author'];
-    this.price = `₹${this.bookObj['author']}`;
+    this.price = `₹${this.bookObj['price']}`;
   }
 
   reRoute(route) {

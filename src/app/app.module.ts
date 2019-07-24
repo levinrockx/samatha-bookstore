@@ -1,5 +1,6 @@
 import { BrowserModule } from '@angular/platform-browser';
 import { NgModule } from '@angular/core';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { NguiMapModule } from '@ngui/map';
@@ -15,7 +16,8 @@ import { HttplayerService } from './HttpService/httplayer.service';
     BrowserModule,
     AppRoutingModule,
     NguiMapModule.forRoot({ apiUrl: 'https://maps.google.com/maps/api/js?key=MY_GOOGLE_API_KEY' }),
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule
   ],
   providers: [HttplayerService],
   bootstrap: [AppComponent]
