@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { Routes, RouterModule } from '@angular/router';
-import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
+
 const routes: Routes = [
   {
     path: '',
@@ -17,14 +17,7 @@ const routes: Routes = [
   {
     path: 'admin',
     loadChildren: () => import('./dashboard/dashboard.module').then(mod => mod.DashboardModule)
-  },
-  {
-    path: '**', redirectTo: 'pageNotFound', pathMatch: 'full'
-  },
-  {
-    path: 'pageNotFound',
-    component: PageNotFoundComponent
-  },
+  }
 ];
 
 @NgModule({

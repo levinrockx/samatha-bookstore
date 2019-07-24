@@ -7,7 +7,6 @@ import { NguiMapModule } from '@ngui/map';
 import { PageNotFoundComponent } from './page-not-found/page-not-found.component';
 import { HttpClientModule } from '@angular/common/http';
 import { HttplayerService } from './HttpService/httplayer.service';
-import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 @NgModule({
   declarations: [
     AppComponent,
@@ -18,8 +17,7 @@ import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
     AppRoutingModule,
     NguiMapModule.forRoot({ apiUrl: 'https://maps.google.com/maps/api/js?key=MY_GOOGLE_API_KEY' }),
     HttpClientModule,
-    BrowserAnimationsModule,
-    FontAwesomeModule
+    BrowserAnimationsModule
   ],
   providers: [HttplayerService],
   bootstrap: [AppComponent]
