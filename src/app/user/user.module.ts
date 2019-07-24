@@ -16,6 +16,7 @@ import { CategoryPageComponent } from './category-page/category-page.component';
 import { BookStoreComponent } from './book-store/book-store.component';
 import { SearchResultsComponent } from './search-results/search-results.component';
 import { BookPageComponent } from './book-page/book-page.component';
+import { FeaturedBookComponent } from './featured-book/featured-book.component';
 import { NguiMapModule } from '@ngui/map';
 
 @NgModule({
@@ -31,8 +32,8 @@ import { NguiMapModule } from '@ngui/map';
     CategoryPageComponent,
     BookStoreComponent,
     SearchResultsComponent,
-    BookPageComponent],
-
+    BookPageComponent,
+    FeaturedBookComponent ],
   imports: [
     CommonModule,
     UserRoutingModule,
