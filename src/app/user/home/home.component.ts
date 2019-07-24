@@ -19,8 +19,8 @@ export class HomeComponent implements OnInit {
 
   getBookAll() {
     const url = `${this.config.API_ENDPOINT}${this.config.API_ENDPOINT_NAMES.bookall}`;
-    // this.httpLayer.get(url).subscribe((response) => {
-    this.httpLayer.get('assets/json/bookall.json').subscribe((response) => {
+    this.httpLayer.get(url).subscribe((response) => {
+    // this.httpLayer.get('assets/json/bookall.json').subscribe((response) => {
       if(response['status']=='success'){
         this.categoryList = response['data']['categories'];
       }

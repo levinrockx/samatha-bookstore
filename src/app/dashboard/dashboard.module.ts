@@ -19,6 +19,7 @@ import { HttplayerService } from '../HttpService/httplayer.service';
 import { ConfigService } from '../Config/config.service';
 import { FormsModule } from '@angular/forms';
 import { AngularMultiSelectModule } from 'angular2-multiselect-dropdown';
+import { FileUploadModule } from 'ng2-file-upload';
 @NgModule({
   declarations: [
     DashboardlandingComponent,
@@ -40,7 +41,8 @@ import { AngularMultiSelectModule } from 'angular2-multiselect-dropdown';
     FormsModule,
     FontAwesomeModule,
     DataTablesModule,
-    AngularMultiSelectModule
+    AngularMultiSelectModule,
+    FileUploadModule
   ],
   providers: [HttplayerService, ConfigService],
 })

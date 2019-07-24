@@ -18,7 +18,7 @@ export class HttplayerService {
   public post(url, body): Observable<any> {
     const httpOptions = {
       headers: new HttpHeaders({
-        'Content-Type': 'application/json',
+        'Content-Type': 'multipart/form-data',
         'Accept': 'application/json',
       })
     };

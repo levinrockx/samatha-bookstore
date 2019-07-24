@@ -11,6 +11,9 @@ export class ConfigService {
     'bookall': "/bookall",
     'addcategory': "/addcategory",
     'addauthor': "/addauthor",
+    'addbook': "/addbook",
+    'authorall': "/authorall",
+    'categoryall': "/categoryall",
   };
 
   public VERSION_NUMBER = 'v0.0.0';

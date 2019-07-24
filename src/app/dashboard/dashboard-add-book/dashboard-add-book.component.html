@@ -15,13 +15,13 @@
             <div class="row col-12 p-0 m-0 form-main">
                 <div class="col-4 input-text">Author</div>
                 <div class="col-8">
-                    <angular2-multiselect [(ngModel)]="book['author']" [settings]="dropdownSettingsList[0]" class="input-custom"></angular2-multiselect>
+                    <angular2-multiselect [(ngModel)]="book['author']" [data]="dropdownOptions['author']" [settings]="dropdownSettingsList[0]" class="input-custom"></angular2-multiselect>
                 </div>
             </div>
             <div class="row col-12 p-0 m-0 form-main">
                 <div class="col-4 input-text">Category</div>
                 <div class="col-8">
-                    <angular2-multiselect [(ngModel)]="book['category']" [settings]="dropdownSettingsList[1]" class="input-custom"></angular2-multiselect>
+                    <angular2-multiselect [(ngModel)]="book['category']" [data]="dropdownOptions['category']"  [settings]="dropdownSettingsList[1]" class="input-custom"></angular2-multiselect>
                 </div>
             </div>
             <div class="row col-12 p-0 m-0 form-main">
@@ -34,12 +34,12 @@
             </div>
             <div class="row col-12 p-0 m-0 form-main">
                 <div class="col-4 input-text">Image</div>
-                <div class="col-8"><input type="file" class="input-custom"></div>
+                <div class="col-8"><input [(ngModel)]="book['image']" type="file" class="input-custom"></div>
             </div>
             <div class="row col-12 p-0 m-0 form-main">
                 <div class="col-4"></div>
                 <div class="col-12 col-sm-8 submit-main">
-                    <button class="add-button button-custom btn-lg">Add</button>
+                    <button (click)="addBook()" class="add-button button-custom btn-lg">Add</button>
                     <button class="cancel-button button-custom btn-lg">Cancel</button>
                 </div>
             </div>
