@@ -17,6 +17,7 @@ import { BookStoreComponent } from './book-store/book-store.component';
 import { SearchResultsComponent } from './search-results/search-results.component';
 import { BookPageComponent } from './book-page/book-page.component';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { FeaturedBookComponent } from './featured-book/featured-book.component';
 import { NguiMapModule } from '@ngui/map';
 
@@ -35,6 +36,11 @@ import { NguiMapModule } from '@ngui/map';
     SearchResultsComponent,
     BookPageComponent,
     FeaturedBookComponent ],
+=======
+
+@NgModule({
+  declarations: [UserlandingComponent, HomeComponent, AboutComponent, ContactComponent, HeaderComponent, FooterComponent, BooksCardSliderComponent, BookCardComponent, CategorySliderComponent, CategoryPageComponent, BookStoreComponent, SearchResultsComponent, BookPageComponent],
+>>>>>>> parent of 5346bd0... page not fount  card removed from category slider
 =======
 
 @NgModule({
