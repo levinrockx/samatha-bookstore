@@ -6,27 +6,31 @@
         <div class="row col-12 p-0 m-0 inner-main">
             <div class="row col-12 p-0 m-0 form-main">
                 <div class="col-4 input-text">Title</div>
-                <div class="col-8"><input type="text" class="input-custom"></div>
+                <div class="col-8"><input type="text" [(ngModel)]="book['title']" class="input-custom"></div>
             </div>
             <div class="row col-12 p-0 m-0 form-main">
                 <div class="col-4 input-text">Description</div>
-                <div class="col-8"><textarea class="input-custom"></textarea></div>
+                <div class="col-8"><textarea [(ngModel)]="book['description']" class="input-custom"></textarea></div>
             </div>
             <div class="row col-12 p-0 m-0 form-main">
                 <div class="col-4 input-text">Author</div>
-                <div class="col-8"><input type="text" class="input-custom"></div>
+                <div class="col-8">
+                    <angular2-multiselect [(ngModel)]="book['author']" [settings]="dropdownSettingsList[0]" class="input-custom"></angular2-multiselect>
+                </div>
             </div>
             <div class="row col-12 p-0 m-0 form-main">
                 <div class="col-4 input-text">Category</div>
-                <div class="col-8"><input type="text" class="input-custom"></div>
+                <div class="col-8">
+                    <angular2-multiselect [(ngModel)]="book['category']" [settings]="dropdownSettingsList[1]" class="input-custom"></angular2-multiselect>
+                </div>
             </div>
             <div class="row col-12 p-0 m-0 form-main">
                 <div class="col-4 input-text">Price</div>
-                <div class="col-8"><input type="text" class="input-custom"></div>
+                <div class="col-8"><input type="text" [(ngModel)]="book['price']" class="input-custom"></div>
             </div>
             <div class="row col-12 p-0 m-0 form-main">
                 <div class="col-4 input-text">Editon</div>
-                <div class="col-8"><input type="text" class="input-custom"></div>
+                <div class="col-8"><input type="text" [(ngModel)]="book['edition']" class="input-custom"></div>
             </div>
             <div class="row col-12 p-0 m-0 form-main">
                 <div class="col-4 input-text">Image</div>

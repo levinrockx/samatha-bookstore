@@ -6,13 +6,13 @@
         <div class="row col-12 p-0 m-0 inner-main">
             <div class="row col-12 p-0 m-0 form-main">
                 <div class="col-4 input-text">Name</div>
-                <div class="col-8"><input type="text" class="input-custom"></div>
+                <div class="col-8"><input [(ngModel)]="categoryName" type="text" class="input-custom"></div>
             </div>
             <div class="row col-12 p-0 m-0 form-main">
                 <div class="col-4"></div>
                 <div class="col-8 submit-main">
-                    <button class="add-button button-custom btn-lg">Add</button>
-                    <button class="cancel-button button-custom btn-lg">Cancel</button>
+                    <button (click)="addCategory()" class="add-button button-custom btn-lg">Add</button>
+                    <button (click)="clear()" class="cancel-button button-custom btn-lg">Clear</button>
                 </div>
             </div>
         </div>

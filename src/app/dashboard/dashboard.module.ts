@@ -15,6 +15,10 @@ import { DashboardEditAuthorComponent } from './dashboard-edit-author/dashboard-
 import { DashboardAddCategoryComponent } from './dashboard-add-category/dashboard-add-category.component';
 import { DashboardEditCategoryComponent } from './dashboard-edit-category/dashboard-edit-category.component';
 import { VersionComponent } from './version/version.component';
+import { HttplayerService } from '../HttpService/httplayer.service';
+import { ConfigService } from '../Config/config.service';
+import { FormsModule } from '@angular/forms';
+import { AngularMultiSelectModule } from 'angular2-multiselect-dropdown';
 @NgModule({
   declarations: [
     DashboardlandingComponent,
@@ -33,8 +37,11 @@ import { VersionComponent } from './version/version.component';
   imports: [
     CommonModule,
     DashboardRoutingModule,
+    FormsModule,
     FontAwesomeModule,
-    DataTablesModule
-  ]
+    DataTablesModule,
+    AngularMultiSelectModule
+  ],
+  providers: [HttplayerService, ConfigService],
 })
 export class DashboardModule { }
