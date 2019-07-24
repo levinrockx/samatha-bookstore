@@ -16,9 +16,24 @@ import { CategoryPageComponent } from './category-page/category-page.component';
 import { BookStoreComponent } from './book-store/book-store.component';
 import { SearchResultsComponent } from './search-results/search-results.component';
 import { BookPageComponent } from './book-page/book-page.component';
+import { FeaturedBookComponent } from './featured-book/featured-book.component';
+
 
 @NgModule({
-  declarations: [UserlandingComponent, HomeComponent, AboutComponent, ContactComponent, HeaderComponent, FooterComponent, BooksCardSliderComponent, BookCardComponent, CategorySliderComponent, CategoryPageComponent, BookStoreComponent, SearchResultsComponent, BookPageComponent],
+  declarations: [UserlandingComponent,
+    HomeComponent,
+    AboutComponent,
+    ContactComponent,
+    HeaderComponent,
+    FooterComponent,
+    BooksCardSliderComponent,
+    BookCardComponent,
+    CategorySliderComponent,
+    CategoryPageComponent,
+    BookStoreComponent,
+    SearchResultsComponent,
+    BookPageComponent,
+    FeaturedBookComponent ],
   imports: [
     CommonModule,
     UserRoutingModule,
