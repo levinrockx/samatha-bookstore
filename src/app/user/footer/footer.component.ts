@@ -1,14 +1,16 @@
-import { Component, OnInit } from '@angular/core';
-import { faFacebookSquare,faWhatsappSquare  } from '@fortawesome/free-brands-svg-icons';
+import { Component, OnInit, Inject } from '@angular/core';
+import { faFacebookSquare, faWhatsappSquare } from '@fortawesome/free-brands-svg-icons';
 import { Router } from '@angular/router';
+
+
 @Component({
   selector: 'app-footer',
   templateUrl: './footer.component.html',
   styleUrls: ['./footer.component.scss']
 })
 export class FooterComponent implements OnInit {
-public faFacebook =faFacebookSquare;
-public faWhatsapp =faWhatsappSquare;
+  public faFacebook = faFacebookSquare;
+  public faWhatsapp = faWhatsappSquare;
   constructor(
     private router: Router
   ) { }
@@ -16,8 +18,26 @@ public faWhatsapp =faWhatsappSquare;
   ngOnInit() {
   }
 
-  reRoute(route){
+  reRoute(route) {
     this.router.navigate([route]);
+  }
+
+  goToUrl(route) {
+    document.location.href = route;
+  }
+
+  number(val: string){
+    let selBox = document.createElement('textarea');
+    selBox.style.position = 'fixed';
+    selBox.style.left = '0';
+    selBox.style.top = '0';
+    selBox.style.opacity = '0';
+    selBox.value = val;
+    document.body.appendChild(selBox);
+    selBox.focus();
+    selBox.select();
+    document.execCommand('copy');
+    document.body.removeChild(selBox);
   }
 
 }
