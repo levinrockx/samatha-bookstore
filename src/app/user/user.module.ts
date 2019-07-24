@@ -19,6 +19,7 @@ import { BookPageComponent } from './book-page/book-page.component';
 <<<<<<< HEAD
 <<<<<<< HEAD
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { FeaturedBookComponent } from './featured-book/featured-book.component';
 =======
 >>>>>>> parent of b60d710... Merge branch 'dev-vysakh'
@@ -54,6 +55,11 @@ import { NguiMapModule } from '@ngui/map';
     BookPageComponent],
 
 >>>>>>> parent of b60d710... Merge branch 'dev-vysakh'
+=======
+
+@NgModule({
+  declarations: [UserlandingComponent, HomeComponent, AboutComponent, ContactComponent, HeaderComponent, FooterComponent, BooksCardSliderComponent, BookCardComponent, CategorySliderComponent, CategoryPageComponent, BookStoreComponent, SearchResultsComponent, BookPageComponent],
+>>>>>>> parent of a480394... Merge branch 'dev-ashwin'
   imports: [
     CommonModule,
     UserRoutingModule,
