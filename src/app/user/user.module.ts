@@ -16,42 +16,28 @@ import { CategoryPageComponent } from './category-page/category-page.component';
 import { BookStoreComponent } from './book-store/book-store.component';
 import { SearchResultsComponent } from './search-results/search-results.component';
 import { BookPageComponent } from './book-page/book-page.component';
-<<<<<<< HEAD
-<<<<<<< HEAD
-import { FeaturedBookComponent } from './featured-book/featured-book.component';
-=======
->>>>>>> parent of b60d710... Merge branch 'dev-vysakh'
 import { NguiMapModule } from '@ngui/map';
 
 @NgModule({
-  declarations: [UserlandingComponent,
-    HomeComponent,
-    AboutComponent,
-    ContactComponent,
-    HeaderComponent,
-    FooterComponent,
-    BooksCardSliderComponent,
-    BookCardComponent,
-    CategorySliderComponent,
-    CategoryPageComponent,
-    BookStoreComponent,
-    SearchResultsComponent,
-<<<<<<< HEAD
-    BookPageComponent,
-    FeaturedBookComponent ],
-=======
+    declarations: [UserlandingComponent,
+        HomeComponent,
+        AboutComponent,
+        ContactComponent,
+        HeaderComponent,
+        FooterComponent,
+        BooksCardSliderComponent,
+        BookCardComponent,
+        CategorySliderComponent,
+        CategoryPageComponent,
+        BookStoreComponent,
+        SearchResultsComponent,
 
-@NgModule({
-  declarations: [UserlandingComponent, HomeComponent, AboutComponent, ContactComponent, HeaderComponent, FooterComponent, BooksCardSliderComponent, BookCardComponent, CategorySliderComponent, CategoryPageComponent, BookStoreComponent, SearchResultsComponent, BookPageComponent],
->>>>>>> parent of a480394... Merge branch 'dev-ashwin'
-=======
-    BookPageComponent],
+        BookPageComponent],
 
->>>>>>> parent of b60d710... Merge branch 'dev-vysakh'
-  imports: [
-    CommonModule,
-    UserRoutingModule,
-    FontAwesomeModule
-  ]
+    imports: [
+        CommonModule,
+        UserRoutingModule,
+        FontAwesomeModule
+    ]
 })
 export class UserModule { }

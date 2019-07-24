@@ -1,10 +1,6 @@
 <div class="row p-0 m-0 home-main">
     <div class="custom-container">
         <app-category-slider class="category-slider-component"></app-category-slider>
-<<<<<<< HEAD
-        <app-featured-book></app-featured-book>
-=======
->>>>>>> parent of b60d710... Merge branch 'dev-vysakh'
         <ng-container *ngIf="categoryList.length !== 0">
             <app-books-card-slider *ngFor="let categoryobj of categoryList" [books]="categoryobj" class="books-card-slider-component"></app-books-card-slider>
         </ng-container>
