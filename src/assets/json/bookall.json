@@ -3,269 +3,492 @@
     "data": {
         "categories": [
             {
-                "category_name": "category-one",
+                "category_name": "Memories",
                 "books": [
                     {
                         "_id": {
-                            "$oid": "5d3489d7fd78d5965f0e0536"
+                            "$oid": "5d39b611268279239756c923"
                         },
-                        "title": "Book Title",
-                        "desc": "value",
-                        "author": "Author",
-                        "category": "category-one",
-                        "price": "100",
-                        "image": "book.png",
-                        "edition": "value"
-                    },
-                    {
-                        "_id": {
-                            "$oid": "5d3489d7fd78d5965f0e0537"
-                        },
-                        "title": "Book Title",
-                        "desc": "value",
-                        "author": "Author",
-                        "category": "category-one",
-                        "price": "100",
-                        "image": "book.png",
-                        "edition": "value"
-                    },
-                    {
-                        "_id": {
-                            "$oid": "5d3489d7fd78d5965f0e0538"
-                        },
-                        "title": "Book Title",
-                        "desc": "value",
-                        "author": "Author",
-                        "category": "category-one",
-                        "price": "100",
-                        "image": "book.png",
-                        "edition": "value"
+                        "title": "\u0d1a\u0d46\u0d17\u0d41\u0d35\u0d47\u0d30 \u0d0e\u0d28\u0d4d\u200d\u0d31\u0d46 \u0d1c\u0d40\u0d35\u0d3f\u0d24\u0d38\u0d16\u0d3e\u0d35\u0d4d Che Guevara :My Comrade in Life",
+                        "description": "Aleida March , the beloved wife of Che Guevara ,took part in Guerilla war for the liberation of Cuba. She was the founder of Che Guevara Educational Trust . She pictures with words the stunning life of her comrade which is translated into Malayalam by Mr. Rajan Thuvvara . The book reveals the greatest moments in the life of the great comrade. The sincerest words of a woman who is proud of the wife of the great warrior reveal the personal, emotional and the softer realm of a man who is guiding millions even after his death. Che Guevaara\u2019s most intimate moments with Fidel Castro are also new to the readers.",
+                        "category": "Memories",
+                        "price": 200,
+                        "image": "Che_Guevara.jpg",
+                        "edition": "1"
                     }
                 ]
             },
             {
-                "category_name": "category-two",
+                "category_name": "Autobiography",
                 "books": [
                     {
                         "_id": {
-                            "$oid": "5d348a39fd78d5965f0e0539"
+                            "$oid": "5d39b9b12920f400ab888395"
                         },
-                        "title": "Book Title",
-                        "desc": "value",
-                        "author": "Author",
-                        "category": "category-two",
-                        "price": "100",
-                        "image": "book.png",
-                        "edition": "value"
+                        "title": "\u0d1e\u0d3e\u0d28\u0d4d\u200d \u0d31\u0d3f\u0d17\u0d4b\u0d2c\u0d46\u0d30\u0d4d\u200d\u0d24 \u0d2e\u0d46\u0d1e\u0d4d\u0d1a\u0d41 \u2013 \u0d06\u0d24\u0d4d\u0d2e\u0d15\u0d25 I, Rigoberta Menchu [Njan Rigoberta Menchu] Rigoberta Menchu",
+                        "description": "Rigoberta Menchu is an American warrior of Guatemala who fought against the Spanish invarsion. A Nobel Laureate for Peace, she is the goodwill ambassador of UNESCO. The amazing translation of her autobiography is done by Mr. Rajan Thuvvara. The autobiography gives a firsthand knowledge of how a Latin American woman could wage war against the colonial powers by the serenity of Biblical values. The Norwegian Nobel Prize Committee suggests this work as \u2018 the most extra ordinary one\u2019 in the realm of literature as it is the real, heart touching expression of the nomads of Latin America.",
+                        "category": "Autobiography",
+                        "price": 300,
+                        "image": "Njaan-Rigo.jpg",
+                        "edition": "1"
                     },
                     {
                         "_id": {
-                            "$oid": "5d348a39fd78d5965f0e053a"
+                            "$oid": "5d39c1c42920f400ab8883a8"
                         },
-                        "title": "Book Title",
-                        "desc": "value",
-                        "author": "Author",
-                        "category": "category-two",
-                        "price": "100",
-                        "image": "book.png",
-                        "edition": "value"
+                        "title": "\u0d1a\u0d4b\u0d30\u0d2f\u0d41\u0d02 \u0d15\u0d23\u0d4d\u0d23\u0d40\u0d30\u0d41\u0d02 \u0d28\u0d28\u0d1e\u0d4d\u0d1e \u0d35\u0d34\u0d3f\u0d15\u0d33\u0d4d\u200d",
+                        "description": "Com .K Devayani was the wife of Com. A V Kunjampu. Being one of the founder of Left Women Association , She laid a strong foundation for the participation of women in the political arena of Punnappra, Alappuzha. With her indomitable spirit ,she could lead the women of Punnapra to enter the political front . The book is a personal memoir of the enthralling experiences of a simple woman who waged herself against the colonial brutality, hence transformed into the Mother of the vibrant Karivellur village.",
+                        "category": "Autobiography",
+                        "price": 125,
+                        "image": "chorayum.jpg",
+                        "edition": "1"
                     },
                     {
                         "_id": {
-                            "$oid": "5d348a39fd78d5965f0e053b"
+                            "$oid": "5d39c3402920f400ab8883ac"
                         },
-                        "title": "Book Title",
-                        "desc": "value",
-                        "author": "Author",
-                        "category": "category-two",
-                        "price": "100",
-                        "image": "book.png",
-                        "edition": "value"
+                        "title": "\u0d15\u0d3f\u0d34\u0d15\u0d4d\u0d15\u0d3f\u0d28\u0d4d\u200d\u0d31\u0d46 \u0d2a\u0d41\u0d24\u0d4d\u0d30\u0d3f- \u0d06\u0d24\u0d4d\u0d2e\u0d15\u0d25- \u0d2c\u0d47\u0d28\u0d38\u0d40\u0d30\u0d4d\u200d \u0d2d\u0d42\u0d1f\u0d4d\u0d1f\u0d4b -Daughter of the East",
+                        "description": "The first Woman Prime Minister of Pakistan , Ms. Benazir Bhutto was the daughter of the former Prime Minister ,Mr. Zulfikar Ali Bhutto. Though she had to migrate due to political turmoil , she returned her homeland and was brutally murdered in a bomb blast in 2007. Her autobiography is translated into Malayalam by Ms. Kabani.The political flame identifies her through the most breath taking experiences narrated in this book. This is a testimony of the last days of her dear father , Mr. Zulfikar Ali Bhutto , and how she and her family tried to keep up and restore the democratic values in the country of Pakistan which led to sacrifice her life.",
+                        "category": "Autobiography",
+                        "price": 250,
+                        "image": "Kizhakkinte-Puthri.jpg",
+                        "edition": "1"
                     },
                     {
                         "_id": {
-                            "$oid": "5d348a39fd78d5965f0e053c"
+                            "$oid": "5d39c9c12920f400ab8883b1"
                         },
-                        "title": "Book Title",
-                        "desc": "value",
-                        "author": "Author",
-                        "category": "category-two",
-                        "price": "100",
-                        "image": "book.png",
-                        "edition": "value"
-                    },
-                    {
-                        "_id": {
-                            "$oid": "5d348a39fd78d5965f0e053d"
-                        },
-                        "title": "Book Title",
-                        "desc": "value",
-                        "author": "Author",
-                        "category": "category-two",
-                        "price": "100",
-                        "image": "book.png",
-                        "edition": "value"
-                    },
-                    {
-                        "_id": {
-                            "$oid": "5d348a39fd78d5965f0e053e"
-                        },
-                        "title": "Book Title",
-                        "desc": "value",
-                        "author": "Author",
-                        "category": "category-two",
-                        "price": "100",
-                        "image": "book.png",
-                        "edition": "value"
-                    },
-                    {
-                        "_id": {
-                            "$oid": "5d348a39fd78d5965f0e053f"
-                        },
-                        "title": "Book Title",
-                        "desc": "value",
-                        "author": "Author",
-                        "category": "category-two",
-                        "price": "100",
-                        "image": "book.png",
-                        "edition": "value"
-                    },
-                    {
-                        "_id": {
-                            "$oid": "5d348a39fd78d5965f0e0540"
-                        },
-                        "title": "Book Title",
-                        "desc": "value",
-                        "author": "Author",
-                        "category": "category-two",
-                        "price": "100",
-                        "image": "book.png",
-                        "edition": "value"
+                        "title": "\u0d24\u0d32\u0d15\u0d41\u0d28\u0d3f\u0d15\u0d4d\u0d15\u0d3e\u0d24\u0d46 : \u0d12\u0d30\u0d41 \u0d2a\u0d46\u0d23\u0d4d\u0d23\u0d3f\u0d28\u0d4d\u0d31\u0d46 \u0d06\u0d24\u0d4d\u0d2e\u0d15\u0d25",
+                        "description": "\u0d35\u0d3f\u0d35\u0d7c\u0d24\u0d4d\u0d24\u0d28\u0d02 : \u0d15\u0d2c\u0d28\u0d3f",
+                        "category": "Autobiography",
+                        "price": 200,
+                        "image": "Thalakunikkaate.jpg",
+                        "edition": "1"
                     }
                 ]
             },
             {
-                "category_name": "category-three",
+                "category_name": "Life sketches",
                 "books": [
                     {
                         "_id": {
-                            "$oid": "5d348a7bfd78d5965f0e0541"
+                            "$oid": "5d39bd362920f400ab888399"
                         },
-                        "title": "Book Title",
-                        "desc": "value",
-                        "author": "Author",
-                        "category": "category-three",
-                        "price": "100",
-                        "image": "book.png",
-                        "edition": "value"
+                        "title": "\u0d38\u0d2b\u0d4d\u0d26\u0d30\u0d4d\u200d \u0d39\u0d37\u0d4d\u200c\u0d2e\u0d3f : \u0d35\u0d30\u0d4d\u200d\u0d17\u0d4d\u0d17\u0d38\u0d2e\u0d30\u0d24\u0d4d\u0d24\u0d3f\u0d28\u0d4d\u0d31\u0d46 \u0d24\u0d46\u0d30\u0d41\u0d35\u0d30\u0d19\u0d4d\u0d19\u0d4d Safdar Hashmi : The Street Theatre for Class Struggle [Safdar Hashmi : Varggasaratthinte Theruvarangu]",
+                        "description": "Mr. P. K Sivadas , the great translator and journalist wrote this book on the famous street theatre activist , Safdar Hashmi. The book includes the preface of Mrs. Malasree Hashmi, his widow and an invigorating interview with Com. Sitaram Yechury. It is a journey through the life of the great martyr Safdar Hashmi who could change a group of people with his pen and theatre. Mr. Hashmi was so promising whom the fascist leaders were afraid of. Sure, this book will enthrall the readers and will make to love him more and more.",
+                        "category": "Life sketches",
+                        "price": 180,
+                        "image": "Safdar-Hashmi.jpg",
+                        "edition": "1"
                     },
                     {
                         "_id": {
-                            "$oid": "5d348a7bfd78d5965f0e0542"
+                            "$oid": "5d39c1922920f400ab8883a7"
                         },
-                        "title": "Book Title",
-                        "desc": "value",
-                        "author": "Author",
-                        "category": "category-three",
-                        "price": "100",
-                        "image": "book.png",
-                        "edition": "value"
+                        "title": "\u0d26\u0d47\u0d35\u0d15\u0d3f \u0d28\u0d30\u0d3f\u0d15\u0d4d\u0d15\u0d3e\u0d1f\u0d4d\u0d1f\u0d3f\u0d30\u0d3f \u2013 \u0d28\u0d35\u0d4b\u0d24\u0d4d\u200c\u0d25\u0d3e\u0d28\u0d28\u0d3e\u0d2f\u0d3f\u0d15",
+                        "description": "Mr. Palakkeezh Narayanan is an active writer and member of Forum for Progressive Artists and Writers [PuKaSa]. His book on Devaki Narikkattiry throws light on the life of an orthodox Namboothiri woman and there by gives a clear picture on the lives of many who were not treated as humans in the Namboothiri family atmosphere. Devaki Narikkattiry could prove her identity through courage , tolerance and perseverance. It was not path strewn with petals but she had to cross it with extra ordinary will power which could not even be dreamt by an ordinary woman. She could gain a life of worth sticking on the words of Gandhiji and the help given by Yoga Kshema Sabha. And she stands like a light house to her followers .",
+                        "category": "Life sketches",
+                        "price": 150,
+                        "image": "Devaki-Narikattiri.jpg",
+                        "edition": "1"
                     },
                     {
                         "_id": {
-                            "$oid": "5d348a7bfd78d5965f0e0543"
+                            "$oid": "5d39c25d2920f400ab8883a9"
                         },
-                        "title": "Book Title",
-                        "desc": "value",
-                        "author": "Author",
-                        "category": "category-three",
-                        "price": "100",
-                        "image": "book.png",
-                        "edition": "value"
+                        "title": "\u0d35\u0d48\u0d36\u0d3e\u0d16\u0d02 :\u0d35\u0d48\u0d36\u0d3e\u0d16\u0d28\u0d4d\u0d31\u0d46 \u0d0e\u0d34\u0d41\u0d24\u0d4d\u0d24\u0d41 \u0d1c\u0d40\u0d35\u0d3f\u0d24\u0d02",
+                        "description": "",
+                        "category": "Life sketches",
+                        "price": 150,
+                        "image": "Vaisakham.jpg",
+                        "edition": "1"
                     },
                     {
                         "_id": {
-                            "$oid": "5d348a7bfd78d5965f0e0544"
+                            "$oid": "5d39c29c2920f400ab8883aa"
                         },
-                        "title": "Book Title",
-                        "desc": "value",
-                        "author": "Author",
-                        "category": "category-three",
-                        "price": "100",
-                        "image": "book.png",
-                        "edition": "value"
+                        "title": "\u0d1a\u0d41\u0d15\u0d28\u0d4d\u0d28 \u0d31\u0d4b\u0d38 : \u0d31\u0d4b\u0d38 \u0d32\u0d15\u0d4d\u0d38\u0d02\u0d2c\u0d7c\u0d17\u0d4d : \u0d1c\u0d40\u0d35\u0d3f\u0d24\u0d35\u0d41\u0d02 \u0d26\u0d30\u0d4d\u200d\u0d36\u0d28\u0d35\u0d41\u0d02 The Red Rose : Life and Visions of Rosa Luxemburg [ Chukanna Rosa : Rosa Luxemburg]",
+                        "description": "Mr. K Rajagopalan who is a research scholar of Kerala Sahithya Academy has a number of books in his credit . His book on Rosa Luxemburg gives light on the woman who fought against the impending calamities of fascism and colonialism. Dr. K.N Panikkar, the leftist Indian historian has written the foreword of this book. Rosa Luxemburg was the Marxist theorist , philosopher and anti-war activist. She was a revolutionary social activist who was a contemporary of Friedrich Engels, Lenin and Clara Zetkin. She taught in the Social Democratic School at Berlin and was famous for her thoughts on Marxian feminism .",
+                        "category": "Life sketches",
+                        "price": 150,
+                        "image": "Chukanna_Rosa.jpg",
+                        "edition": "1"
                     },
                     {
                         "_id": {
-                            "$oid": "5d348a7bfd78d5965f0e0545"
+                            "$oid": "5d39cacb2920f400ab8883b5"
                         },
-                        "title": "Book Title",
-                        "desc": "value",
-                        "author": "Author",
-                        "category": "category-three",
-                        "price": "100",
-                        "image": "book.png",
-                        "edition": "value"
+                        "title": "\u0d35\u0d3f. \u0d06\u0d7c. \u0d15\u0d43\u0d37\u0d4d\u0d23\u0d2f\u0d4d\u0d2f\u0d7c -\u0d28\u0d40\u0d24\u0d3f\u0d2f\u0d41\u0d1f\u0d46 \u0d2a\u0d4b\u0d30\u0d3e\u0d33\u0d3f",
+                        "description": "",
+                        "category": "Life sketches",
+                        "price": 300,
+                        "image": "V-R-Krishnaiyer.jpg",
+                        "edition": "1"
                     },
                     {
                         "_id": {
-                            "$oid": "5d348a7bfd78d5965f0e0546"
+                            "$oid": "5d39cb112920f400ab8883b7"
                         },
-                        "title": "Book Title",
-                        "desc": "value",
-                        "author": "Author",
-                        "category": "category-three",
-                        "price": "100",
-                        "image": "book.png",
-                        "edition": "value"
+                        "title": "Maya Angelou",
+                        "description": "",
+                        "category": "Life sketches",
+                        "price": 200,
+                        "image": "Maya-Angelou.png",
+                        "edition": "1"
                     },
                     {
                         "_id": {
-                            "$oid": "5d348a7bfd78d5965f0e0547"
+                            "$oid": "5d39cb2c2920f400ab8883b8"
                         },
-                        "title": "Book Title",
-                        "desc": "value",
-                        "author": "Author",
-                        "category": "category-three",
-                        "price": "100",
-                        "image": "book.png",
-                        "edition": "value"
+                        "title": "\u0d37\u0d39\u0d40\u0d26\u0d4d \u0d2d\u0d17\u0d24\u0d4d\u200c\u0d38\u0d3f\u0d19\u0d4d : \u0d07 \u0d19\u0d4d\u0d15\u0d4d\u0d35\u0d3f\u0d32\u0d3e\u0d2c\u0d3f\u0d28\u0d4d\u0d31\u0d46 \u0d10\u0d21\u0d3f \u0d2e\u0d41\u0d34\u0d15\u0d4d\u0d15\u0d02",
+                        "description": "",
+                        "category": "Life sketches",
+                        "price": 200,
+                        "image": "bagath-singh.png",
+                        "edition": "1"
+                    }
+                ]
+            },
+            {
+                "category_name": "Study & history",
+                "books": [
+                    {
+                        "_id": {
+                            "$oid": "5d39b317268279239756c922"
+                        },
+                        "title": "\u0d2c\u0d7c\u0d2e\u0d4d\u0d2e\u0d2f\u0d3f\u0d7d\u0d28\u0d3f\u0d28\u0d4d\u0d28\u0d41\u0d33\u0d4d\u0d33 \u0d15\u0d24\u0d4d\u0d24\u0d41\u0d15\u0d7e (Letters from Burma )",
+                        "description": "The book translated by Ms. Kabani gives a clear picture of Aung Saan Suu Kyi who is a symbol of resistence, that caanot be suppressed by years of imprisonment. Suukyi, who puts a strong resistence against the military government in Myanmar under the leadership of National league for Democracy [NLD] examines all aspects of the life of people of Myanmar.",
+                        "category": "Study & history",
+                        "price": 125,
+                        "image": "Burmayilnillulla_kathukal.jpg",
+                        "edition": "1"
                     },
                     {
                         "_id": {
-                            "$oid": "5d348a7bfd78d5965f0e0548"
+                            "$oid": "5d39b87a2920f400ab888393"
                         },
-                        "title": "Book Title",
-                        "desc": "value",
-                        "author": "Author",
-                        "category": "category-three",
-                        "price": "100",
-                        "image": "book.png",
-                        "edition": "value"
+                        "title": "Wind Energy",
+                        "description": "Dr. P Rajan is an engineer cum writer who is engaged with projects dealing optimum uses of wind energy . He is one of the pioneers of Wind farm Project in Attappadi. There is a world of untapped and renewable energy around us. This book presents the growth and technology of wind energy. This is a comprehensive book on wind technology and is for worded by Mr. E.C Padmarajan.",
+                        "category": "Study & history",
+                        "price": 200,
+                        "image": "Wind-Energy.jpg",
+                        "edition": "1"
                     },
                     {
                         "_id": {
-                            "$oid": "5d348a7bfd78d5965f0e0549"
+                            "$oid": "5d39b8b42920f400ab888394"
                         },
-                        "title": "Book Title",
-                        "desc": "value",
-                        "author": "Author",
-                        "category": "category-three",
-                        "price": "100",
-                        "image": "book.png",
-                        "edition": "value"
+                        "title": "\u0d24\u0d4a\u0d34\u0d3f\u0d7d\u0d15\u0d47\u0d28\u0d4d\u0d26\u0d4d\u0d30\u0d24\u0d4d\u0d24\u0d3f\u0d32\u0d47\u0d15\u0d4d\u0d15\u0d4d : \u0d1a\u0d30\u0d3f\u0d24\u0d4d\u0d30\u0d30\u0d47\u0d16-\u0d28\u0d3e\u0d1f\u0d15\u0d02-\u0d2a\u0d20\u0d28\u0d02 To the Workfare \u2013 A Study as a Play and a Historical movement",
+                        "description": "Prof. T.A Ushakumari who is the editor of this book was the HOD of History in Sree Kerala Varma College, Thrissur. She is the meber of State Committee of PuKaSa , an organization of artists, writers and art and literature enthusiasts based in Kerala. As the sub title indicates the book is trifolded. It tells about the title which is a Movement marked in golden letters in the history of Kerala. The book provides a study of the historical markers paved by the people who could prove themselves the great milestones.",
+                        "category": "Study & history",
+                        "price": 270,
+                        "image": "Thozhilkendrathilekku.jpg",
+                        "edition": "1"
                     },
                     {
                         "_id": {
-                            "$oid": "5d348a7bfd78d5965f0e054a"
+                            "$oid": "5d39bd692920f400ab88839a"
                         },
-                        "title": "Book Title",
-                        "desc": "value",
-                        "author": "Author",
-                        "category": "category-three",
-                        "price": "100",
-                        "image": "book.png",
-                        "edition": "value"
+                        "title": "\u0d05\u0d31\u0d2c\u0d4d \u0d38\u0d02\u0d38\u0d4d\u200c\u0d15\u0d43\u0d24\u0d3f \u2013 \u0d35\u0d3e\u0d15\u0d4d\u0d15\u0d41\u0d15\u0d7e \u0d35\u0d47\u0d26\u0d28\u0d15\u0d7e",
+                        "description": "",
+                        "category": "Study & history",
+                        "price": 300,
+                        "image": "Arab-Samskriti.jpg",
+                        "edition": "1"
+                    },
+                    {
+                        "_id": {
+                            "$oid": "5d39bdfe2920f400ab88839c"
+                        },
+                        "title": "\u0d2e\u0d3e\u0d7c\u0d15\u0d4d\u0d38\u0d3f\u0d38\u0d35\u0d41\u0d02 \u0d2b\u0d46\u0d2e\u0d3f\u0d28\u0d3f\u0d38\u0d35\u0d41\u0d02 : \u0d1a\u0d30\u0d3f\u0d24\u0d4d\u0d30\u0d2a\u0d30\u0d2e\u0d3e\u0d2f \u0d35\u0d3f\u0d36\u0d15\u0d32\u0d28\u0d02 A Hisorical Analysis of Marxism and feminism",
+                        "description": "Dr. T.K Anadi with the preface of Sudha Sundararaaman here analyses the great isms , Marxism and Feminism ,historically . Marxism is a method of socio economic analysis taking a dialectical way of social transformation by the liberation of proletariat. Feminism is meant for the upliftment of women by freeing them from the male oriented society. Both of them are utterly against any kind of domination. Here the book historically introduces the various facets of feminism and its relevance in post modern times. This is the very first book that deals with the duel topics in a single frame.",
+                        "category": "Study & history",
+                        "price": 500,
+                        "image": "marxism.jpg",
+                        "edition": "1"
+                    },
+                    {
+                        "_id": {
+                            "$oid": "5d39be622920f400ab88839e"
+                        },
+                        "title": "\u0d24\u0d47\u0d7b\u0d35\u0d30\u0d3f\u0d15\u0d4d\u0d15\u0d2f\u0d41\u0d02 \u0d24\u0d47\u0d28\u0d4d\u0d2e\u0d3e\u0d35\u0d41\u0d02 : \u0d05\u0d1f\u0d41\u0d15\u0d4d\u0d15\u0d33\u0d2e\u0d41\u0d31\u0d4d\u0d31\u0d24\u0d4d\u0d24\u0d46 \u0d2a\u0d4b\u0d37\u0d15\u0d15\u0d4d\u0d15\u0d32\u0d35\u0d31 (The sweetness of Jackfruits and Mangoes )",
+                        "description": "Mrs.Padmini Sivadas in this cookery book gives the recipes of various dishes ,squashes and juices made with Jackfruit and mango. She states that we are often forgetting the nutritious sources of our houses.The book is included with mouth watering pictures of the food items and has given detailed recipe of them. Dr. C.S Chandrika has prefaced the book.",
+                        "category": "Study & history",
+                        "price": 200,
+                        "image": "Thenvarikkayum-Thenmavum.jpg",
+                        "edition": "1"
+                    },
+                    {
+                        "_id": {
+                            "$oid": "5d39c0262920f400ab8883a2"
+                        },
+                        "title": "\u0d38\u0d3e\u0d7c\u0d35\u0d26\u0d47\u0d36\u0d40\u0d2f \u0d35\u0d28\u0d3f\u0d24\u0d3e\u0d26\u0d3f\u0d28\u0d24\u0d4d\u0d24\u0d3f\u0d28\u0d4d\u0d31\u0d46 \u0d38\u0d4b\u0d37\u0d4d\u0d2f\u0d32\u0d3f\u0d38\u0d4d\u0d31\u0d31\u0d4d \u0d09\u0d31\u0d35\u0d3f\u0d1f\u0d19\u0d4d\u0d19\u0d7e (The Socialist Sources of International Women\u2019s Day)",
+                        "description": "The book on the Socialist sources of International Women\u2019s Day was written in English by Com. R Jawahar. He enumerates the reasons why March 8 is celebrated as the International Women\u2019s day. It is a day of resurrection of women who were hunted down by the patriarchal society. On March 8 1917, a group of women demonstrators for bread took the streets of Petrograd. The protesters were clashed with the police terribly but that day is marked in History with blood. This led the UN to celebrate March 8 as International Women\u2019s Day.",
+                        "category": "Study & history",
+                        "price": 100,
+                        "image": "Saarvadeseeya.jpg",
+                        "edition": "1"
+                    },
+                    {
+                        "_id": {
+                            "$oid": "5d39c0502920f400ab8883a3"
+                        },
+                        "title": "\u0d1c\u0d3f\u0d2a\u0d4d\u0d38\u0d3f\u0d15\u0d7e : \u0d2e\u0d3e\u0d38\u0d4d\u0d2e\u0d30\u0d32\u0d4b\u0d15\u0d24\u0d4d\u0d24\u0d3f\u0d32\u0d46 \u0d28\u0d3f\u0d24\u0d4d\u0d2f\u0d38\u0d1e\u0d4d\u0d1a\u0d3e\u0d30\u0d3f\u0d15\u0d7e Gypsies : The Eternal Travellers of Magical World[Gypisikal-Masmara lokatthe Nithya Sancharikal]",
+                        "description": "The Gypsies are the eternal travelers having mesmerizing capacities. The travel through all the all over the world, neither worried of shade and shelters. They sing, they dance and they make beautiful handicrafts . They are neither taught nor trained. They love their life..and they live their life . The author Ms. K Rema very beautifully pictures the life of Gypsies who are marginalized from the \u2018civilized\u2019 society.",
+                        "category": "Study & history",
+                        "price": 150,
+                        "image": "Gypsies.jpg",
+                        "edition": "1"
+                    },
+                    {
+                        "_id": {
+                            "$oid": "5d39c07b2920f400ab8883a4"
+                        },
+                        "title": "\u0d1a\u0d46\u0d2e\u0d4d\u0d2e\u0d23\u0d4d\u0d23\u0d3f\u0d32\u0d46 \u0d28\u0d3e\u0d1f\u0d4d\u0d1f\u0d41\u0d35\u0d34\u0d3f\u0d15\u0d7e, \u0d06\u0d32\u0d2a\u0d4d\u0d2a\u0d41\u0d34\u0d2f\u0d41\u0d1f\u0d46 \u0d1a\u0d30\u0d3f\u0d24\u0d4d\u0d30\u0d02 : \u0d38\u0d02\u0d38\u0d4d\u0d15\u0d3e\u0d30\u0d02- \u0d2e\u0d41\u0d28\u0d4d\u0d28\u0d47\u0d31\u0d4d\u0d31\u0d02 The History of Alappuzha: Travels on the roads of Red Clay",
+                        "description": "The history of Alappuzha named \u201cChemmanninle Nattuvazhikal\u2019 edited by G. Sasidharan Pillai is a galleria of the beauty and heritage of one of the most beautiful district of Kerala. Alappuzha is enriched by the heritage of coir, fishes and boat races. The far reaching Vembanad lake is a feast to the eyes. The mouth watering food of Alappuzha attracts many to this place. Undoubtedly it can be assured that this book on the Venice of the East , as Alappuzha is called, a guide to the travelers. More over this is a historical footage on how the place is marked in the political and cultural renaissance of Kerala.",
+                        "category": "Study & history",
+                        "price": 300,
+                        "image": "Chemmannile.jpg",
+                        "edition": "1"
+                    },
+                    {
+                        "_id": {
+                            "$oid": "5d39c0c62920f400ab8883a5"
+                        },
+                        "title": "\u0d38\u0d57\u0d30\u0d4b\u0d7c\u0d1c\u0d4d\u0d1c\u0d02",
+                        "description": "Dr. P Rajan is a world famous scientist who took part in many of the meetings held by UN on the topic of weather. He is an active member of many projects like Roof Solar Projects and Wind Farm Project in Attappadi. As everybody knows the sun is a perennial source of energy. The solar energy is the most simple but convenient source of fuel. It is an alarming fact that most of our natural resources including natural fuels are diminishing day by day. Here the author is pointing out the alternate way for sustaining that fuel level by using the simplest method of converting the sunlight into solar energy . This study has a great relevance in the social life of India.",
+                        "category": "Study & history",
+                        "price": 150,
+                        "image": "Sourorjjam.jpg",
+                        "edition": "1"
+                    },
+                    {
+                        "_id": {
+                            "$oid": "5d39c1452920f400ab8883a6"
+                        },
+                        "title": "\u0d2a\u0d41\u0d30\u0d4b\u0d17\u0d2e\u0d28 \u0d38\u0d3e\u0d39\u0d3f\u0d24\u0d4d\u0d2f \u0d2a\u0d4d\u0d30\u0d38\u0d4d\u0d25\u0d3e\u0d28\u0d24\u0d4d\u0d24\u0d3f\u0d28\u0d4d\u0d31\u0d46 80 \u0d35\u0d7c\u0d37\u0d19\u0d4d\u0d19\u0d7e :\u0d2a\u0d4a\u0d30\u0d41\u0d24\u0d41\u0d28\u0d4d\u0d28 \u0d15\u0d32 ,\u0d2a\u0d4d\u0d30\u0d24\u0d3f\u0d30\u0d4b\u0d27\u0d02 \u0d2a\u0d4d\u0d30\u0d24\u0d4d\u0d2f\u0d3e\u0d36",
+                        "description": "",
+                        "category": "Study & history",
+                        "price": 200,
+                        "image": "poruthunna-kala.jpg",
+                        "edition": "1"
+                    },
+                    {
+                        "_id": {
+                            "$oid": "5d39caa92920f400ab8883b4"
+                        },
+                        "title": "\u0d32\u0d3e\u0d31\u0d4d\u0d31\u0d3f\u0d7b \u0d05\u0d2e\u0d47\u0d30\u0d3f\u0d15\u0d4d\u0d15 -\u0d1c\u0d28\u0d15\u0d40\u0d2f \u0d1a\u0d30\u0d3f\u0d24\u0d4d\u0d30\u0d02",
+                        "description": "",
+                        "category": "Study & history",
+                        "price": 175,
+                        "image": "Latin-America.jpg",
+                        "edition": "1"
+                    },
+                    {
+                        "_id": {
+                            "$oid": "5d39caed2920f400ab8883b6"
+                        },
+                        "title": "\u0d15\u0d36\u0d4d\u0d2e\u0d40\u0d7c: \u0d35\u0d47\u0d26\u0d28\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d28\u0d4d\u0d28 \u0d2a\u0d31\u0d41\u0d26\u0d40\u0d38",
+                        "description": "",
+                        "category": "Study & history",
+                        "price": 200,
+                        "image": "Kashmir-Vedanikkunna-Parudeesa.jpg",
+                        "edition": "1"
+                    }
+                ]
+            },
+            {
+                "category_name": "Short stories & novels",
+                "books": [
+                    {
+                        "_id": {
+                            "$oid": "5d39b82f2920f400ab888392"
+                        },
+                        "title": "\u0d35\u0d47\u0d32\u0d3f\u0d2e\u0d41\u0d32\u0d4d\u0d32 The Jasmine by the Hedge [ velimulla]",
+                        "description": "Vaisakhan ,the eminent writer in Malayalam unveils in all its entirety the tribulations and aspirations of a woman\u2019s life , in the literary bouquet of fifteen short stories. They also reveals the chaos and confusion in the mind of man where he is confronting the extra \u2013ordinary moves on the part of his beloved. The characters are very ordinary people with extra ordinary temperaments. This collection of stories are prefaced by Dr. Kadeeja Mumthaz, another eminent writer in Malayalam.",
+                        "category": "Short stories & novels",
+                        "price": 125,
+                        "image": "Velimulla.jpg",
+                        "edition": "1"
+                    },
+                    {
+                        "_id": {
+                            "$oid": "5d39ba032920f400ab888396"
+                        },
+                        "title": "\u0d2e\u0d1e\u0d4d\u0d1a\u0d3e\u0d1f\u0d3f\u0d2f\u0d3f\u0d7d \u0d12\u0d30\u0d17\u0d4d\u0d28\u0d3f\u0d15\u0d4d\u0d15\u0d42\u0d1f\u0d4d A Nest of Fire [Manchadiyil Oru Agnikkoodu]",
+                        "description": "There may not be any reference to the name of Vasantha as a novelist in Malayalam literature, but she was very dear to those who had read her novels and short stories. So this bunch of short stories gives another chance to read the short stories having the characters of flesh and blood , selecting the themes from the real life experiences . The stories are edited by Ms. Priya Vargheese. The book contains a memoir of the dear sister of the novelist herself and the prefaced by renowned writer, Chandramathy.",
+                        "category": "Short stories & novels",
+                        "price": 160,
+                        "image": "Manjadiyil-Oragnikkoodu.jpg",
+                        "edition": "2"
+                    },
+                    {
+                        "_id": {
+                            "$oid": "5d39bb9a2920f400ab888397"
+                        },
+                        "title": "\u0d08\u0d7c\u0d15\u0d4d\u0d15\u0d3f\u0d32\u0d3f\u0d32\u0d4d\u0d32\u0d3e\u0d24\u0d4d\u0d24 \u0d13\u0d32\u0d2f\u0d3f\u0d32 A Coconut Leaf without Stem [Eerkkiliyillaatha olayila]",
+                        "description": "C.Vasantha Kumari who wrote under the pen name of Vasantha was once the very sought after writer in Malayalam literature. Her novel with the same title was published periodically in Kaumudi Magazine. But due to her ill health she left the realm of writing and kept silent till her death. But what she had written in such a short span of time is worth reading. Her characters, especially the women characters are very bold and courageous to face the society. They were never afraid of the insensitive morality imposed by patriarchal society. Instead she tried to prove male world with all its capacities and weaknesses. This novel can be considered a clear cut vision of the society.",
+                        "category": "Short stories & novels",
+                        "price": 250,
+                        "image": "Eerkkilillaatha-Olayila.jpg",
+                        "edition": "2"
+                    },
+                    {
+                        "_id": {
+                            "$oid": "5d39bdcc2920f400ab88839b"
+                        },
+                        "title": "\u0d35\u0d38\u0d28\u0d4d\u0d24\u0d38\u0d4d\u200c\u0d2e\u0d43\u0d24\u0d3f , \u0d15\u0d32\u0d3e\u0d32\u0d2f \u0d15\u0d25\u0d15\u0d7e",
+                        "description": "In Memory of Vasantha is a tribute to a great woman novelist who was no more among us. This is a collection of stories from the students of various campuses . The stories included are very inspiring and thought provoking which give a clarion to the better days of Malayalam stories. Ms. KadeejaMumtaz has foreworded the reverberations of the campus.",
+                        "category": "Short stories & novels",
+                        "price": 150,
+                        "image": "vasanthasmruthi.jpg",
+                        "edition": "1"
+                    },
+                    {
+                        "_id": {
+                            "$oid": "5d39be342920f400ab88839d"
+                        },
+                        "title": "\u0d2c\u0d02\u0d17\u0d15\u0d25\u0d3e\u0d17\u0d30\u0d3f\u0d2e ,\u0d2c\u0d02\u0d17\u0d3e\u0d33\u0d3f \u0d15\u0d25\u0d3e\u0d38\u0d2e\u0d3e\u0d39\u0d3e\u0d30\u0d02",
+                        "description": "Dr. Venu Maruthayi has translated twenty two Bengali short stories into Mayalayam. They are the stories of the age which stands the test of time. No doubt this book will be a new experience to Malayalee readers who have close affinity towards Bengal and Bengali literature.",
+                        "category": "Short stories & novels",
+                        "price": 350,
+                        "image": "BAMGAKATHA-GARIMA.jpg",
+                        "edition": "1"
+                    }
+                ]
+            },
+            {
+                "category_name": "Uncategorised",
+                "books": []
+            },
+            {
+                "category_name": "Songs",
+                "books": [
+                    {
+                        "_id": {
+                            "$oid": "5d39bc452920f400ab888398"
+                        },
+                        "title": "\u0d15\u0d32\u0d39\u0d15\u0d32\u0d2f\u0d4d\u0d15\u0d4d\u0d15\u0d4a\u0d30\u0d41 \u0d15\u0d32\u0d4d\u0d32\u0d41\u0d35\u0d33 : \u0d2a\u0d4b\u0d30\u0d3e\u0d1f\u0d4d\u0d1f\u0d2a\u0d3e\u0d1f\u0d4d\u0d1f\u0d41\u0d15\u0d7e",
+                        "description": "",
+                        "category": "Songs",
+                        "price": 300,
+                        "image": "Kalaha-kala.jpg",
+                        "edition": "1"
+                    },
+                    {
+                        "_id": {
+                            "$oid": "5d39ca0d2920f400ab8883b2"
+                        },
+                        "title": "\u0d2a\u0d1f\u0d2f\u0d3f\u0d30\u0d2e\u0d4d\u0d2a\u0d02 , \u0d38\u0d2e\u0d24\u0d2f\u0d41\u0d1f\u0d46 \u0d17\u0d3e\u0d28\u0d19\u0d4d\u0d19\u0d7e",
+                        "description": "\u0d2a\u0d1f\u0d2f\u0d3f\u0d30\u0d2e\u0d4d\u0d2a\u0d02 , \u0d38\u0d2e\u0d24\u0d2f\u0d41\u0d1f\u0d46 \u0d17\u0d3e\u0d28\u0d19\u0d4d\u0d19\u0d7e \u0d0e\u0d21\u0d3f\u0d31\u0d4d\u0d31\u0d7c : \u0d2a\u0d3f \u0d38\u0d32\u0d3f\u0d02\u0d30\u0d3e\u0d1c\u0d4d",
+                        "category": "Songs",
+                        "price": 50,
+                        "image": "Patayirampam.png",
+                        "edition": "1"
+                    }
+                ]
+            },
+            {
+                "category_name": "Children's library",
+                "books": [
+                    {
+                        "_id": {
+                            "$oid": "5d39b7de2920f400ab888391"
+                        },
+                        "title": "\u0d38\u0d4d\u0d32\u0d3e\u0d31\u0d4d\u0d31\u0d2f\u0d41\u0d1f\u0d46 \u0d21\u0d2f\u0d31\u0d3f\u0d15\u0d4d\u0d15\u0d41\u0d31\u0d3f\u0d2a\u0d4d\u0d2a\u0d41\u0d15\u0d7e -\u0d38\u0d3e\u0d30\u0d2f\u0d46\u0d35\u0d4b\u0d2f\u0d3f\u0d32\u0d46 \u0d15\u0d41\u0d1f\u0d4d\u0d1f\u0d3f\u0d2f\u0d41\u0d1f\u0d46 \u0d1c\u0d40\u0d35\u0d3f\u0d24\u0d02",
+                        "description": "\u0d35\u0d3f\u0d35\u0d7c\u0d24\u0d4d\u0d24\u0d28\u0d02 :\u0d30\u0d3e\u0d1c\u0d7b \u0d24\u0d41\u0d35\u0d4d\u0d35\u0d3e\u0d30",
+                        "category": "Children's library",
+                        "price": 150,
+                        "image": "Zlatayute-Diarykkurippukal.jpg",
+                        "edition": "1"
+                    },
+                    {
+                        "_id": {
+                            "$oid": "5d39bfaf2920f400ab8883a0"
+                        },
+                        "title": "\u0d35\u0d7c\u0d23\u0d4d\u0d23\u0d15\u0d4d\u0d15\u0d3f\u0d33\u0d3f\u0d15\u0d7e(\u0d15\u0d25\u0d15\u0d7e )",
+                        "description": "",
+                        "category": "Children's library",
+                        "price": 90,
+                        "image": "varnakkilika.jpg",
+                        "edition": "1"
+                    },
+                    {
+                        "_id": {
+                            "$oid": "5d39bff72920f400ab8883a1"
+                        },
+                        "title": "\u0d30\u0d02\u0d17\u0d15\u0d47\u0d33\u0d3f -\u0d15\u0d41\u0d1f\u0d4d\u0d1f\u0d3f\u0d15\u0d7e\u0d15\u0d4d\u0d15\u0d4a\u0d30\u0d41 \u0d28\u0d3e\u0d1f\u0d15 \u0d38\u0d2e\u0d3e\u0d39\u0d3e\u0d30\u0d02",
+                        "description": "",
+                        "category": "Children's library",
+                        "price": 150,
+                        "image": "Rangakeli.jpg",
+                        "edition": "1"
+                    },
+                    {
+                        "_id": {
+                            "$oid": "5d39c2e12920f400ab8883ab"
+                        },
+                        "title": "The Mysterious world of Comets and Asteroids",
+                        "description": "DR. P.M Sidharthan was a scientist in ISRO . He has worked as a faculty member in CSSTE-AP and a Research Scholar in Ifire Technology, Toronto . The book introduces the mysterious world of comets and asteroids which is unknown the common people . It is a complete reference book on the birth, death and the history of the celestial bodies.",
+                        "category": "Children's library",
+                        "price": 125,
+                        "image": "The-Mystrious-World.jpg",
+                        "edition": "1"
+                    },
+                    {
+                        "_id": {
+                            "$oid": "5d39c36f2920f400ab8883ad"
+                        },
+                        "title": "\u0d15\u0d3e\u0d1f\u0d4d \u0d12\u0d30\u0d41 \u0d2e\u0d39\u0d3e\u0d17\u0d41\u0d30\u0d41",
+                        "description": "",
+                        "category": "Children's library",
+                        "price": 150,
+                        "image": "Kadu_Oru_Mahaguru.jpg",
+                        "edition": "1"
+                    },
+                    {
+                        "_id": {
+                            "$oid": "5d39c3d42920f400ab8883ae"
+                        },
+                        "title": "\u0d15\u0d1f\u0d32\u0d2e\u0d4d\u0d2e\u0d2f\u0d41\u0d1f\u0d46 \u0d2e\u0d1f\u0d3f\u0d24\u0d4d\u0d24\u0d1f\u0d4d\u0d1f\u0d3f\u0d7d",
+                        "description": "",
+                        "category": "Children's library",
+                        "price": 125,
+                        "image": "Katalammayute-Madithattil.jpg",
+                        "edition": "1"
+                    },
+                    {
+                        "_id": {
+                            "$oid": "5d39c40c2920f400ab8883af"
+                        },
+                        "title": "\u0d35\u0d3f\u0d36\u0d4d\u0d35\u0d4b\u0d24\u0d4d\u0d24\u0d30 \u0d15\u0d41\u0d1f\u0d4d\u0d1f\u0d3f\u0d15\u0d25\u0d15\u0d7e",
+                        "description": "",
+                        "category": "Children's library",
+                        "price": 75,
+                        "image": "Viswothara-kuttikkathakal.jpg",
+                        "edition": "1"
+                    },
+                    {
+                        "_id": {
+                            "$oid": "5d39c4392920f400ab8883b0"
+                        },
+                        "title": "\u0d28\u0d17\u0d30\u0d15\u0d4d\u0d15\u0d3f\u0d33\u0d3f",
+                        "description": "",
+                        "category": "Children's library",
+                        "price": 90,
+                        "image": "Nagarakkili.jpg",
+                        "edition": "1"
+                    },
+                    {
+                        "_id": {
+                            "$oid": "5d39cb592920f400ab8883b9"
+                        },
+                        "title": "\u0d2e\u0d34\u0d2f\u0d41\u0d02 \u0d2e\u0d1e\u0d4d\u0d1e\u0d41\u0d02 \u2013 \u0d1c\u0d32\u0d24\u0d4d\u0d24\u0d3f\u0d28\u0d4d\u0d31\u0d46 \u0d30\u0d42\u0d2a\u0d2a\u0d30\u0d3f\u0d23\u0d3e\u0d2e\u0d19\u0d4d\u0d19\u0d7e [Mazhayum Manjum \u2013Jalatthinte Roopa Parinamangal]",
+                        "description": "Water is the matrix of life. It is seen all over the earth in many forms. It is condescended in the clouds, strewn on the snow, melted in the heat, flowed in the rivers. The book evaluates the various stages of water and how it closely connected with human life and ecology. Prefaced by Prof. K Papputty, this book is contributed by Vaishakhan Thampi, a faculty of Physics, NSS College, Cherthala.",
+                        "category": "Children's library",
+                        "price": 200,
+                        "image": "Mazhayum-Manjum.png",
+                        "edition": "1"
                     }
                 ]
             }
