@@ -1,11 +1,11 @@
 <div class="row p-0 m-0 book-card-main" (window:resize)="setSliderShowVar()" #sliderMain>
-    <div class="custom-card heading-card">
+    <div class="heading-card">
         <div class="heading">
             {{cardHeading}}
         </div>
     </div>
     <div class="row p-0 m-0 custom-card slider-card">
-        <div *ngIf="bookList.length > 2" class="col-12 p-0 m-0 row slider-buttons-main">
+        <div *ngIf="bookList.length > siderShowVar" class="col-12 p-0 m-0 row slider-buttons-main">
             <div class="col-2 p-0 m-0 slider-button-left-main">
                 <div (click)="leftArrowClick()" class="row p-0 m-0 arrow-icon-wrapper">
                     <fa-icon [icon]="faArrowLeft"></fa-icon>
@@ -18,7 +18,8 @@
             </div>
         </div>
         <div class="col-12 row p-0 m-0 book-cards-wrapper">
-            <div [@bounceIn]="bounceIn" *ngFor="let book of sliderList" class="col-12 col-sm-6 col-md-4 p-0 m-0 item-card-main">
+            <!-- <div [@bounceIn]="bounceIn" *ngFor="let book of sliderList" class="col-12 col-sm-6 col-md-4 p-0 m-0 item-card-main"> -->
+            <div *ngFor="let book of sliderList" class="col-12 col-sm-6 col-md-4 p-0 m-0 item-card-main">
                 <app-book-card [book]="book" class="book-card-link"></app-book-card>
             </div>
         </div>
