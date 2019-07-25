@@ -16,6 +16,7 @@ import { CategoryPageComponent } from './category-page/category-page.component';
 import { BookStoreComponent } from './book-store/book-store.component';
 import { SearchResultsComponent } from './search-results/search-results.component';
 import { BookPageComponent } from './book-page/book-page.component';
+<<<<<<< HEAD
 import { NguiMapModule } from '@ngui/map';
 
 @NgModule({
@@ -39,5 +40,42 @@ import { NguiMapModule } from '@ngui/map';
         UserRoutingModule,
         FontAwesomeModule
     ]
+=======
+<<<<<<< HEAD
+<<<<<<< HEAD
+import { FeaturedBookComponent } from './featured-book/featured-book.component';
+import { NguiMapModule } from '@ngui/map';
+
+@NgModule({
+  declarations: [UserlandingComponent,
+    HomeComponent,
+    AboutComponent,
+    ContactComponent,
+    HeaderComponent,
+    FooterComponent,
+    BooksCardSliderComponent,
+    BookCardComponent,
+    CategorySliderComponent,
+    CategoryPageComponent,
+    BookStoreComponent,
+    SearchResultsComponent,
+    BookPageComponent,
+    FeaturedBookComponent ],
+=======
+
+@NgModule({
+  declarations: [UserlandingComponent, HomeComponent, AboutComponent, ContactComponent, HeaderComponent, FooterComponent, BooksCardSliderComponent, BookCardComponent, CategorySliderComponent, CategoryPageComponent, BookStoreComponent, SearchResultsComponent, BookPageComponent],
+>>>>>>> parent of 5346bd0... page not fount  card removed from category slider
+=======
+
+@NgModule({
+  declarations: [UserlandingComponent, HomeComponent, AboutComponent, ContactComponent, HeaderComponent, FooterComponent, BooksCardSliderComponent, BookCardComponent, CategorySliderComponent, CategoryPageComponent, BookStoreComponent, SearchResultsComponent, BookPageComponent],
+>>>>>>> parent of 5346bd0... page not fount  card removed from category slider
+  imports: [
+    CommonModule,
+    UserRoutingModule,
+    FontAwesomeModule
+  ]
+>>>>>>> parent of d70599f... a
 })
 export class UserModule { }
