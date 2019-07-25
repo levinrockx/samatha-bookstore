@@ -19,6 +19,7 @@
 }
 .pagenotfound-haeding {
   font-size: 65px;
+  word-break: break-all;
   width: 100%;
   display: flex;
   justify-content: center;
@@ -31,4 +32,30 @@
   width: 100%;
   display: flex;
   justify-content: center;
+}
+@media (max-width:982px) {
+  .pagenotfound-404 {
+    font-size: 144px;
+  }
+  .pagenotfound-card {
+    width: 619px;
+    height: 471px;
+    margin-top: 80px !important;
+  }
+ .pagenotfound-haeding{
+     font-size: 55px;
+ }
+}
+@media (max-width:768px) {
+  .pagenotfound-404 {
+    font-size: 100px;
+  }
+  .pagenotfound-card {
+    width: 446px;
+    height: 410px;
+    margin-top: 100px !important;
+  }
+ .pagenotfound-haeding{
+     font-size: 45px;
+ }
 }
