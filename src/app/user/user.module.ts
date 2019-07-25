@@ -42,7 +42,6 @@ import { NguiMapModule } from '@ngui/map';
     ]
 =======
 <<<<<<< HEAD
-<<<<<<< HEAD
 import { FeaturedBookComponent } from './featured-book/featured-book.component';
 import { NguiMapModule } from '@ngui/map';
 
@@ -71,6 +70,13 @@ import { NguiMapModule } from '@ngui/map';
 @NgModule({
   declarations: [UserlandingComponent, HomeComponent, AboutComponent, ContactComponent, HeaderComponent, FooterComponent, BooksCardSliderComponent, BookCardComponent, CategorySliderComponent, CategoryPageComponent, BookStoreComponent, SearchResultsComponent, BookPageComponent],
 >>>>>>> parent of 5346bd0... page not fount  card removed from category slider
+<<<<<<< HEAD
+=======
+=======
+    BookPageComponent],
+
+>>>>>>> parent of b60d710... Merge branch 'dev-vysakh'
+>>>>>>> parent of 0921188... a
   imports: [
     CommonModule,
     UserRoutingModule,
