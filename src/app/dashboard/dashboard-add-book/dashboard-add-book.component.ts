@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { ConfigService } from '../../Config/config.service';
 import { HttplayerService } from '../../HttpService/httplayer.service';
-
+import Swal from 'sweetalert2';
 @Component({
   selector: 'app-dashboard-add-book',
   templateUrl: './dashboard-add-book.component.html',
@@ -98,9 +98,25 @@ export class DashboardAddBookComponent implements OnInit {
     }
     this.httpLayer.post(url, body).subscribe((response) => {
       if (response['status'] === 'success') {
-        console.log(response);
+        Swal.fire({
+          title: 'Success',
+          text: `${this.book['title']} added successfully`,
+          type: 'success',
+        });
+        this.clear();
       }
     });
+  }
+
+  clear() {
+    this.book = {
+      'title': '',
+      'description': '',
+      'author': '',
+      'category': '',
+      'price': '',
+      'edition': ''
+    };
   }
 
 }
