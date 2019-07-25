@@ -16,38 +16,8 @@ import { CategoryPageComponent } from './category-page/category-page.component';
 import { BookStoreComponent } from './book-store/book-store.component';
 import { SearchResultsComponent } from './search-results/search-results.component';
 import { BookPageComponent } from './book-page/book-page.component';
-<<<<<<< HEAD
-<<<<<<< HEAD
 import { NguiMapModule } from '@ngui/map';
-
-@NgModule({
-    declarations: [UserlandingComponent,
-        HomeComponent,
-        AboutComponent,
-        ContactComponent,
-        HeaderComponent,
-        FooterComponent,
-        BooksCardSliderComponent,
-        BookCardComponent,
-        CategorySliderComponent,
-        CategoryPageComponent,
-        BookStoreComponent,
-        SearchResultsComponent,
-
-        BookPageComponent],
-
-    imports: [
-        CommonModule,
-        UserRoutingModule,
-        FontAwesomeModule
-    ]
-=======
-<<<<<<< HEAD
-=======
->>>>>>> parent of a55c9aa... revert
 import { FeaturedBookComponent } from './featured-book/featured-book.component';
-import { NguiMapModule } from '@ngui/map';
-
 @NgModule({
   declarations: [UserlandingComponent,
     HomeComponent,
@@ -62,33 +32,12 @@ import { NguiMapModule } from '@ngui/map';
     BookStoreComponent,
     SearchResultsComponent,
     BookPageComponent,
-    FeaturedBookComponent ],
-<<<<<<< HEAD
-=======
-
-@NgModule({
-  declarations: [UserlandingComponent, HomeComponent, AboutComponent, ContactComponent, HeaderComponent, FooterComponent, BooksCardSliderComponent, BookCardComponent, CategorySliderComponent, CategoryPageComponent, BookStoreComponent, SearchResultsComponent, BookPageComponent],
->>>>>>> parent of 5346bd0... page not fount  card removed from category slider
-=======
-
-@NgModule({
-  declarations: [UserlandingComponent, HomeComponent, AboutComponent, ContactComponent, HeaderComponent, FooterComponent, BooksCardSliderComponent, BookCardComponent, CategorySliderComponent, CategoryPageComponent, BookStoreComponent, SearchResultsComponent, BookPageComponent],
->>>>>>> parent of 5346bd0... page not fount  card removed from category slider
-<<<<<<< HEAD
-=======
-=======
-    BookPageComponent],
-
->>>>>>> parent of b60d710... Merge branch 'dev-vysakh'
->>>>>>> parent of 0921188... a
-=======
->>>>>>> parent of a55c9aa... revert
+    FeaturedBookComponent],
   imports: [
     CommonModule,
     UserRoutingModule,
     FontAwesomeModule,
     NguiMapModule.forRoot({ apiUrl: 'https://maps.google.com/maps/api/js?key=AIzaSyD8eyWbk1ah4lArbrPYmj6gZS6YfphOZjw' })
   ]
->>>>>>> parent of d70599f... a
 })
 export class UserModule { }

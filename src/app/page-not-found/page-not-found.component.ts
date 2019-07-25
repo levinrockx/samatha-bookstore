@@ -7,7 +7,7 @@ import { faExclamationTriangle } from '@fortawesome/free-solid-svg-icons';
   styleUrls: ['./page-not-found.component.scss']
 })
 export class PageNotFoundComponent implements OnInit {
-public faExclamationTriangle = faExclamationTriangle;
+  public faExclamationTriangle = faExclamationTriangle;
   constructor() { }
 
   ngOnInit() {

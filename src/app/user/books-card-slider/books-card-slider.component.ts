@@ -30,8 +30,8 @@ export class BooksCardSliderComponent implements OnInit, OnChanges {
   }
 
   ngOnChanges(changes: SimpleChanges) {
-    this.cardHeading = this.bookObj[' category_name'];
-    this.bookList = this.bookObj[' books'];
+    this.cardHeading = this.bookObj['category_name'];
+    this.bookList = this.bookObj['books'];
     this.setSliderShowVar();
     this.setSliderList(0);
   }
