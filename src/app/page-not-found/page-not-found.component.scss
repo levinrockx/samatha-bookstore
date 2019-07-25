@@ -1,26 +1,34 @@
-.pagenotfound-main{
-    background-color: #ffffff;
-    width: 100%;
-    display: flex;
-    justify-content: center;
-
+.pagenotfound-main {
+  background-color: #ffffff;
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
-.pagenotfound-card{
-    width: 700px;
-    display: flex;
-    justify-content: center;
+.pagenotfound-card {
+  width: 960px;
+  margin-top: 60px !important;
+  height: 583px;
 }
 .pagenotfound-404 {
-    font-size: 200px;
-    font-family: DidactGothic;
-    width:100%;
-    color: #34e7e4;
+  font-size: 180px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: DidactGothic;
+  color: #34e7e4;
 }
-.pagenotfound-haeding{
-    font-size: 100px;
-    font-family: DidactGothic;
-    width:100%;
+.pagenotfound-haeding {
+  font-size: 65px;
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  font-family: DidactGothic;
 }
-.card-icon{
-    font-size: 80px;
+.card-icon {
+  font-size: 80px;
+}
+.pagenotfound-icon {
+  width: 100%;
+  display: flex;
+  justify-content: center;
 }
