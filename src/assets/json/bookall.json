@@ -354,6 +354,17 @@
                         "price": 350,
                         "image": "BAMGAKATHA-GARIMA.jpg",
                         "edition": "1"
+                    },
+                    {
+                        "_id": {
+                            "$oid": "5d39cf442920f400ab8883bb"
+                        },
+                        "title": "\u0d24\u0d1f\u0d4d\u0d1f\u0d3f\u0d7b\u0d2a\u0d41\u0d31\u0d24\u0d4d\u0d24\u0d46 \u0d2c\u0d41\u0d26\u0d4d\u0d27\u0d7b The Budha in the Attic [Thattinpuratthe Budhan]",
+                        "description": "Julie Otsuka is a Japanese writer who wrote this novel revealing the history of brides in Japan who started to sail carrying the pictures of their grooms migrated to America. The novel makes the readers experience the pathos and agony of those helpless women who were the part of the country once. Ms. Kabani has translated the novel in a flowery but powerful language.",
+                        "category": "Short stories & novels",
+                        "price": 125,
+                        "image": "Thattinpurathe-Buddhan.png",
+                        "edition": "1"
                     }
                 ]
             },
@@ -488,6 +499,17 @@
                         "category": "Children's library",
                         "price": 200,
                         "image": "Mazhayum-Manjum.png",
+                        "edition": "1"
+                    },
+                    {
+                        "_id": {
+                            "$oid": "5d39cdce2920f400ab8883ba"
+                        },
+                        "title": "\u0d17\u0d3e\u0d32\u0d2a\u0d4d\u0d2a\u0d17\u0d4b\u0d38\u0d4d \u0d26\u0d4d\u0d35\u0d40\u0d2a\u0d41\u0d15\u0d33\u0d3f\u0d32\u0d46 \u0d2e\u0d3e\u0d2f\u0d3f\u0d15\u0d15\u0d3e\u0d34\u0d4d\u0d1a\u0d15\u0d7e",
+                        "description": "",
+                        "category": "Children's library",
+                        "price": 125,
+                        "image": "Galapagose.png",
                         "edition": "1"
                     }
                 ]
