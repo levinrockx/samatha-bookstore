@@ -17,6 +17,7 @@ import { BookStoreComponent } from './book-store/book-store.component';
 import { SearchResultsComponent } from './search-results/search-results.component';
 import { BookPageComponent } from './book-page/book-page.component';
 <<<<<<< HEAD
+<<<<<<< HEAD
 import { NguiMapModule } from '@ngui/map';
 
 @NgModule({
@@ -42,6 +43,8 @@ import { NguiMapModule } from '@ngui/map';
     ]
 =======
 <<<<<<< HEAD
+=======
+>>>>>>> parent of a55c9aa... revert
 import { FeaturedBookComponent } from './featured-book/featured-book.component';
 import { NguiMapModule } from '@ngui/map';
 
@@ -60,6 +63,7 @@ import { NguiMapModule } from '@ngui/map';
     SearchResultsComponent,
     BookPageComponent,
     FeaturedBookComponent ],
+<<<<<<< HEAD
 =======
 
 @NgModule({
@@ -77,10 +81,13 @@ import { NguiMapModule } from '@ngui/map';
 
 >>>>>>> parent of b60d710... Merge branch 'dev-vysakh'
 >>>>>>> parent of 0921188... a
+=======
+>>>>>>> parent of a55c9aa... revert
   imports: [
     CommonModule,
     UserRoutingModule,
-    FontAwesomeModule
+    FontAwesomeModule,
+    NguiMapModule.forRoot({ apiUrl: 'https://maps.google.com/maps/api/js?key=AIzaSyD8eyWbk1ah4lArbrPYmj6gZS6YfphOZjw' })
   ]
 >>>>>>> parent of d70599f... a
 })
