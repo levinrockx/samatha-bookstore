@@ -17,7 +17,7 @@ import { BookStoreComponent } from './book-store/book-store.component';
 import { SearchResultsComponent } from './search-results/search-results.component';
 import { BookPageComponent } from './book-page/book-page.component';
 import { NguiMapModule } from '@ngui/map';
-import { FeaturedBookComponent } from './featured-book/featured-book.component';
+// import { FeaturedBookComponent } from './featured-book/featured-book.component';
 @NgModule({
   declarations: [UserlandingComponent,
     HomeComponent,
@@ -31,18 +31,9 @@ import { FeaturedBookComponent } from './featured-book/featured-book.component';
     CategoryPageComponent,
     BookStoreComponent,
     SearchResultsComponent,
-<<<<<<< HEAD
-<<<<<<< HEAD
     BookPageComponent,
-    FeaturedBookComponent],
-=======
-    BookPageComponent],
+    ],
 
->>>>>>> parent of b60d710... Merge branch 'dev-vysakh'
-=======
-    BookPageComponent],
-
->>>>>>> parent of b60d710... Merge branch 'dev-vysakh'
   imports: [
     CommonModule,
     UserRoutingModule,
