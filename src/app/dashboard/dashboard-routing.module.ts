@@ -2,7 +2,6 @@ import { NgModule } from '@angular/core';
 import { Routes, RouterModule, ChildrenOutletContexts } from '@angular/router';
 import { DashboardlandingComponent } from './dashboardlanding/dashboardlanding.component';
 import { DashboardComponent } from './dashboard/dashboard.component';
-import {VersionComponent} from './version/version.component';
 
 const routes: Routes = [
   {
@@ -17,12 +16,7 @@ const routes: Routes = [
       {
         path: 'dashboard',
         component: DashboardComponent,
-      },
-      {
-        path: 'version',
-        component: VersionComponent,
       }
-
     ],
   }
 ];
