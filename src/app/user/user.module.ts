@@ -32,8 +32,13 @@ import { FeaturedBookComponent } from './featured-book/featured-book.component';
     BookStoreComponent,
     SearchResultsComponent,
 <<<<<<< HEAD
+<<<<<<< HEAD
     BookPageComponent,
     FeaturedBookComponent],
+=======
+    BookPageComponent],
+
+>>>>>>> parent of b60d710... Merge branch 'dev-vysakh'
 =======
     BookPageComponent],
 
