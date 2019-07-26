@@ -13,13 +13,15 @@
                 <div class="category-heading-name display-inline">
                     category {{categoryName}}
                 </div>
-                <div class="category-heading-number display-inline">
+                <!-- <div class="category-heading-number display-inline">
                     1 to 6 of {{categoryNumber}}
-                </div>
+                </div> -->
             </div>
-            <div class="category-card">
-                <ng-container>
-                    <app-book-card class="book book-card-link"></app-book-card>
+            <div class="category-card col-12 row p-0 m-0">
+                <ng-container *ngIf="bookList.length != 0">
+                    <ng-container *ngFor="let book of bookList">
+                        <app-book-card [book]="book" class="col-10 col-sm-6 col-md-3 book book-card-link"></app-book-card>
+                    </ng-container>
                 </ng-container>
             </div>
         </div>
