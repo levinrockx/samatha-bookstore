@@ -66,7 +66,7 @@ export class DashboardAddBookComponent implements OnInit {
   }
 
   selectedFile(event) {
-    console.log(event);
+    // console.log(event);
     this.fileSelected = <File>event.target.files[0];
   }
 
@@ -90,7 +90,7 @@ export class DashboardAddBookComponent implements OnInit {
     const body = {
       "title": this.book['title'],
       "description": this.book['description'],
-      "author": this.book['author']['itemName'],
+      "author": this.book['author'][0]['itemName'],
       "category": this.book['category'][0]['itemName'],
       "price": this.book['price'],
       "image": this.fileSelected.name,

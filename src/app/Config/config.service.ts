@@ -17,10 +17,12 @@ export class ConfigService {
     'bookall': "/bookall",
     'authorall': "/authorall",
     'categoryall': "/categoryall",
+    'editauthor': "/editauthor",
+    'editbook': "/editbook",
     'editcategory': "/editcategory",
     'deletecategory': "/deletecategory",
-    'editauthor': "/editauthor",
     'deleteauthor': "/deleteauthor",
+    'deletebook': "/deletebook",
   };
 
   public VERSION_NUMBER = 'v0.0.0';
