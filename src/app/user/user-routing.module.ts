@@ -23,7 +23,7 @@ const routes: Routes = [
         component: HomeComponent,
       },
       {
-        path: 'categorypage',
+        path: 'categorypage/:id',
         component: CategoryPageComponent,
       },
       {

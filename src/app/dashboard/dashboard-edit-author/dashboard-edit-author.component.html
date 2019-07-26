@@ -3,7 +3,7 @@
         <div class="heading">
             Edit Book
         </div>
-        <div class="row col-12 p-0 m-0 inner-main">
+        <div *ngIf="authorList.length != 0" class="row col-12 p-0 m-0 inner-main">
             <div class="table-responsive table-responsive-sm table-responsive-md table-responsive-lg table-wrapper">
                 <table datatable [dtOptions]="dtOptions" class="row-border hover">
                     <thead>
@@ -20,16 +20,16 @@
                         </tr>
                     </thead>
                     <tbody>
-                        <tr>
+                        <tr *ngFor="let author of authorList; let i = index;">
                             <td>
-                                1
+                                {{i+1}}
                             </td>
                             <td>
-                                Samatha Books
+                                {{author['itemName']}}
                             </td>
                             <td>
-                                <fa-icon [icon]="faPencilAlt" class="action-icon"></fa-icon>
-                                <fa-icon [icon]="faTrash" class="action-icon"></fa-icon>
+                                <fa-icon [icon]="faPencilAlt" (click)="openEditModal(author, editModal)" class="action-icon"></fa-icon>
+                                <fa-icon [icon]="faTrash" (click)="openDeleteModal(author, deleteModal)" class="action-icon"></fa-icon>
                             </td>
                         </tr>
                     </tbody>
@@ -38,3 +38,42 @@
         </div>
     </div>
 </div>
+
+<ng-template #editModal let-modal>
+    <div class="modal-header">
+        <h4 class="modal-title" id="title">Edit Author</h4>
+        <button type="button" class="close" aria-label="Close" (click)="modal.dismiss()">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            <label for="categoryname">Author Name</label>
+            <div class="input-group">
+                <input id="categoryname" [(ngModel)]="authorName" class="form-control" placeholder="author name">
+            </div>
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-success" (click)="editAuthor()">Update</button>
+        <button type="button" class="btn btn-danger" (click)="modal.close()">Cancel</button>
+    </div>
+</ng-template>
+
+<ng-template #deleteModal let-modal>
+    <div class="modal-header">
+        <h4 class="modal-title" id="title">Delete {{authorName}}</h4>
+        <button type="button" class="close" aria-label="Close" (click)="modal.dismiss()">
+            <span aria-hidden="true">&times;</span>
+        </button>
+    </div>
+    <div class="modal-body">
+        <div class="form-group">
+            Do you want to delete this author?
+        </div>
+    </div>
+    <div class="modal-footer">
+        <button type="button" class="btn btn-success" (click)="deleteAuthor()">Delete</button>
+        <button type="button" class="btn btn-danger" (click)="modal.close()">Cancel</button>
+    </div>
+</ng-template>
