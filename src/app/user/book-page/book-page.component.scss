@@ -3,6 +3,7 @@
 }
 .book-page-left-main {
   padding-right: 10px !important;
+  width: 100%;
 }
 .book-page-left-card {
   height: 100%;
@@ -22,7 +23,7 @@
   width: 100%;
 }
 // .book-page-right-main {
-  
+
 // }
 .book-page-title {
   font-family: DidactGothic;
@@ -49,7 +50,6 @@
   font-family: DidactGothic;
   font-size: 17px;
   color: rgba(128, 128, 128, 0.76);
- 
 }
 .book-page-edition {
   font-family: DidactGothic;
@@ -69,8 +69,61 @@
   font-size: 17px;
   margin-top: 30px !important;
 }
-.book-page-about-content{
-    font-family: DidactGothic;
+.book-page-about-content {
+  font-family: DidactGothic;
+  font-size: 15px;
+  color: rgba(128, 128, 128, 0.76);
+}
+@media (max-width: 992px) {
+  .book-page-res {
+    display: flex;
+    justify-content: center;
+  }
+  .book-page-left-main {
+    margin-bottom: 50px !important;
+  }
+  .book-page-right-card {
+    padding: 17px 60px !important;
+  }
+}
+@media (max-width: 768px) {
+  .book-page-title {
+    font-size: 18px;
+  }
+  .book-page-about-heading {
+    font-size: 18px;
+  }
+  .book-page-edition {
+    font-size: 16px;
+  }
+  .book-page-author {
+    font-size: 16px;
+  }
+  .book-page-price {
+    font-size: 18px;
+  }
+  .book-page-right-card {
+    padding: 15px 40px !important;
+  }
+}
+@media (max-width: 576px) {
+  .book-page-title {
     font-size: 15px;
-    color: rgba(128, 128, 128, 0.76);
+  }
+  .book-page-about-heading {
+    font-size: 16px;
+  }
+  .book-page-edition {
+    font-size: 13px;
+  }
+  
+  .book-page-author {
+    font-size: 13px;
+  }
+  .book-page-price {
+    font-size: 16px;
+  }
+  .book-page-right-card {
+    padding: 10px 15px !important;
+  }
 }
