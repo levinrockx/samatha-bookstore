@@ -20,12 +20,12 @@ export class CategoryPageComponent implements OnInit {
 
   ngOnInit() {
     this.getCategoryId();
-    this.getCategoryBooks();
   }
 
   getCategoryId() {
     this.route.params.subscribe(params => {
       this.categoryId = params.id;
+      this.getCategoryBooks();
     });
   }
   getCategoryBooks() {
