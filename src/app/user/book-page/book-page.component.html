@@ -1,38 +1,40 @@
-<div class="row p-0 m-0 book-page-main" (window:resize)="getImageWidth()" >
+<div class="row p-0 m-0 book-page-main" (window:resize)="getImageWidth()">
     <div class="custom-container row p-0 m-0">
-        <div class=" row p-0 m-0 book-page-left-main">
-            <div class="custom-card book-page-left-card" #leftCard>
-                <img src="{{imagePath}}" [ngStyle]="{'width.px': imageWidth }" class="book-img">
+        <div class="col-lg-12  row p-0 m-0 book-page-res">
+            <div class="col-lg-4 col-sm-10 col-9 col-md-11 row p-0 m-0 book-page-left-main">
+                <div class="custom-card book-page-left-card" #leftCard>
+                    <img src="{{imagePath}}" [ngStyle]="{'width.px': imageWidth }" class="book-img">
+                </div>
             </div>
-        </div>
-        <div class=" row p-0 m-0  book-page-right-main">
-            <div class="custom-card book-page-right-card">
-                <div class="book-page-title row p-0 m-0">
-                    {{title}}<br>
-                </div>
-                <div class="book-page-price row p-0 m-0">
-                    ₹{{price}}<br>
-                </div>
-                <div class="book-page-author row p-0 m-0">
-                    {{author}}<br>
-                </div>
-                <div class="book-page-category row p-0 m-0">
-                    Category: {{category}}<br>
-                </div>
-                <!-- <div class="book-page-language row p-0 m-0">
+            <div class="col-lg-8 col-md-12 row p-0 m-0  book-page-right-main">
+                <div class="custom-card book-page-right-card">
+                    <div class="book-page-title row p-0 m-0">
+                        {{title}}<br>
+                    </div>
+                    <div class="book-page-price row p-0 m-0">
+                        ₹{{price}}<br>
+                    </div>
+                    <div class="book-page-author row p-0 m-0">
+                        {{author}}<br>
+                    </div>
+                    <div class="book-page-category row p-0 m-0">
+                        Category: {{category}}<br>
+                    </div>
+                    <!-- <div class="book-page-language row p-0 m-0">
                     Language: {{language}}<br>
                 </div> -->
-                <div class="book-page-edition row p-0 m-0">
-                    Edition: {{edition}}<br>
-                </div>
-                <!-- <div class="book-page-publisher row p-0 m-0">
+                    <div class="book-page-edition row p-0 m-0">
+                        Edition: {{edition}}<br>
+                    </div>
+                    <!-- <div class="book-page-publisher row p-0 m-0">
                     Publisher: {{publisher}}<br>
                 </div> -->
-                <div class="book-page-about-heading row p-0 m-0">
-                    About the book<br>
-                </div>
-                <div class="book-page-about-content row p-0 m-0">
-                    {{description}}<br>
+                    <div class="book-page-about-heading row p-0 m-0">
+                        About the book<br>
+                    </div>
+                    <div class="book-page-about-content row p-0 m-0">
+                        {{description}}<br>
+                    </div>
                 </div>
             </div>
         </div>
