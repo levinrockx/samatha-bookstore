@@ -59,3 +59,19 @@
      font-size: 45px;
  }
 }
+ @media (max-width:576px) {
+  .pagenotfound-404 {
+       font-size: 70px;
+  }
+  .pagenotfound-card {
+   width: 266px;
+    height: 358px;
+    margin-top: 60px !important;
+  }
+ .pagenotfound-haeding{
+     font-size: 25px;
+ }
+ .card-icon {
+  font-size: 60px;
+}
+}
