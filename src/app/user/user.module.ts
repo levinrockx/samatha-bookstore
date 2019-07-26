@@ -18,6 +18,7 @@ import { SearchResultsComponent } from './search-results/search-results.componen
 import { BookPageComponent } from './book-page/book-page.component';
 import { NguiMapModule } from '@ngui/map';
 import { FeaturedBookComponent } from './featured-book/featured-book.component';
+import { BannerComponent } from './banner/banner.component';
 @NgModule({
   declarations: [UserlandingComponent,
     HomeComponent,
@@ -32,7 +33,8 @@ import { FeaturedBookComponent } from './featured-book/featured-book.component';
     BookStoreComponent,
     SearchResultsComponent,
     BookPageComponent,
-    FeaturedBookComponent
+    FeaturedBookComponent,
+    BannerComponent
   ],
 
   imports: [
