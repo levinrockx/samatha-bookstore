@@ -12,6 +12,7 @@ import { Router } from '@angular/router';
 })
 export class BookCardComponent implements OnInit, OnChanges {
   public bounce: any;
+  public bookId;
   public imagePath;
   public title;
   public author;
@@ -37,10 +38,16 @@ export class BookCardComponent implements OnInit, OnChanges {
   }
 
   setBookData() {
+    this.bookId = this.bookObj['_id']['$oid'];
     this.imagePath = `assets/img/${this.bookObj['image']}`;
     this.title = this.bookObj['title'];
     this.author = this.bookObj['author'];
     this.price = `₹${this.bookObj['price']}`;
+  }
+
+  routeBookId(id) {
+    const route = `user/bookpage/${id}`;
+    this.reRoute(route);
   }
 
   reRoute(route) {

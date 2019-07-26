@@ -8,11 +8,15 @@
 .book-page-left-card {
   height: 100%;
   //padding-right: 20px !important;
-  padding: 26px;
+  // padding: 26px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
   width: 100%;
 }
 .book-img {
-  height: 270px;
+  height: auto;
+  padding: 10px;
 }
 .book-page-right-card {
   padding: 20px 80px !important;

@@ -43,7 +43,7 @@ const routes: Routes = [
         component: SearchResultsComponent,
       },
       {
-        path: 'bookpage',
+        path: 'bookpage/:id',
         component: BookPageComponent,
       },
     ]

@@ -9,6 +9,7 @@ export class ConfigService {
 
   public API_ENDPOINT_NAMES = {
     'bookall': "/bookall",
+    'book': "/book",
     'addcategory': "/addcategory",
     'addauthor': "/addauthor",
     'addbookimage': "/addbookimage",
