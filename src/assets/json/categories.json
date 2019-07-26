@@ -1,32 +1,24 @@
 [{
-    "category_name" : "Memories",
-    "icon_name": "faPlayCircle"
+    "category_name" : "Memories"
 },
 {
-    "category_name" : "Autobiography",
-    "icon_name": "faPenNib"
+    "category_name" : "Autobiography"
 },
 {
-    "category_name" : "Life sketches",
-    "icon_name": "handHoldingHeart"
+    "category_name" : "Life sketches"
 },
 {
-    "category_name" : "Study & history",
-    "icon_name": "faUserGraduate"
+    "category_name" : "Study & history"
 },
 {
-    "category_name" : "Short stories & novels",
-    "icon_name": "faBookReader"
+    "category_name" : "Short stories & novels"
 },
 {
-    "category_name" : "Uncategorised",
-    "icon_name": "faIdBadge"
+    "category_name" : "Uncategorised"
 },
 {
-    "category_name" : "Children's library",
-    "icon_name": "faChild"
+    "category_name" : "Children's library"
 },
 {
-    "category_name" : "Songs",
-    "icon_name": "faMusic"
+    "category_name" : "Songs"
 }]

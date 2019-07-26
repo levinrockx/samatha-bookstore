@@ -8,15 +8,19 @@ export class ConfigService {
   public API_ENDPOINT = 'http://10.7.100.220/api';
 
   public API_ENDPOINT_NAMES = {
-    'bookall': "/bookall",
     'book': "/book",
     'category': "/category",
     'addcategory': "/addcategory",
+    'addbook': "/addbook",
     'addauthor': "/addauthor",
     'addbookimage': "/addbookimage",
-    'addbook': "/addbook",
+    'bookall': "/bookall",
     'authorall': "/authorall",
     'categoryall': "/categoryall",
+    'editcategory': "/editcategory",
+    'deletecategory': "/deletecategory",
+    'editauthor': "/editauthor",
+    'deleteauthor': "/deleteauthor",
   };
 
   public VERSION_NUMBER = 'v0.0.0';
