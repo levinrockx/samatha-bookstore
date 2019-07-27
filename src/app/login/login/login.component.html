@@ -12,17 +12,17 @@
                 Username:
             </div>
             <div class="p-0 m-0 input-field">
-                <input type="text" class="input-text">
+                <input [(ngModel)]="username" type="text" class="input-text">
             </div>
             <div class="col-4 p-0 m-0 input-label">
                 Password:
             </div>
             <div class="p-0 m-0 input-field">
-                <input type="password" class="input-text">
+                <input [(ngModel)]="password" type="password" class="input-text">
             </div>
         </div>
         <div class="col-12 row p-0 m-0 button">
-            <button class="login-btn">Login</button>
+            <button (click)="login()" class="login-btn">Login</button>
         </div>
     </div>
 </div>

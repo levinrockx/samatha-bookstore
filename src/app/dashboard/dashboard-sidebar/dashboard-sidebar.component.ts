@@ -29,4 +29,9 @@ export class DashboardSidebarComponent implements OnInit {
     this.router.navigate([route]);
   }
 
+  logout() {
+    localStorage.clear();
+    this.reRoute('\login');
+  }
+
 }
