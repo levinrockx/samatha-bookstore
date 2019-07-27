@@ -10,13 +10,14 @@
 }
 .search-card {
   display: flex;
-  justify-content: center;
+  justify-content: start;
 }
 .book {
   margin: 25px;
 }
 .book-card-link {
   cursor: pointer;
+  margin: 10px 0px 15px 0px !important;
 }
 .card-main {
   width: 100%;
@@ -40,6 +41,12 @@
 @media (max-width: 992px) {
   .search-card {
     grid-template-columns: auto !important;
+  }
+}
+@media (max-width: 576px) {
+  .search-card {
+    justify-content: center !important;
+    margin: 0px !important
   }
 }
 @media (max-width: 510px) {
