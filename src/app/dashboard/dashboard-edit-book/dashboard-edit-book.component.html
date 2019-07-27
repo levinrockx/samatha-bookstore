@@ -12,6 +12,9 @@
                                 Id
                             </th>
                             <th>
+                                image
+                            </th>
+                            <th>
                                 Title
                             </th>
                             <th>
@@ -35,6 +38,9 @@
                         <tr *ngFor="let bookObj of bookList; let i = index;">
                             <td>
                                 {{i+1}}
+                            </td>
+                            <td>
+                                <img class="edit-image" src="assets/img/{{bookObj['image']}}">
                             </td>
                             <td>
                                 {{bookObj['title']}}

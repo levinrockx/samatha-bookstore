@@ -24,6 +24,7 @@ export class ConfigService {
     'deleteauthor': "/deleteauthor",
     'deletebook': "/deletebook",
     'login': '/login',
+    'search': '/search',
   };
 
   public TOCKEN = {

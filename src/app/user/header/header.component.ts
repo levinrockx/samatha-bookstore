@@ -1,6 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 import { faBars, faSearch } from '@fortawesome/free-solid-svg-icons';
 import { Router } from '@angular/router';
+import { SearchService } from '../search.service';
 @Component({
   selector: 'app-header',
   templateUrl: './header.component.html',
@@ -10,8 +11,10 @@ export class HeaderComponent implements OnInit {
   public headerresponsivestatus: Boolean = false;
   public faBars = faBars;
   public faSearch = faSearch;
+  public searchKeyword = '';
   constructor(
-    private router: Router
+    private router: Router,
+    private serachService: SearchService
   ) { }
 
   ngOnInit() {
@@ -23,6 +26,11 @@ export class HeaderComponent implements OnInit {
 
   reRoute(route) {
     this.router.navigate([route]);
+  }
+
+  search() {
+    this.serachService.setSearchKeyWord(this.searchKeyword);
+    this.reRoute('user/search');
   }
 
 }

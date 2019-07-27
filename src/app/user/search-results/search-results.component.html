@@ -1,48 +1,25 @@
 <div class="search-main row p-0 m-0">
     <div class="custom-container row p-0 m-0">
-            <app-category-slider class="search-category-slider"></app-category-slider>
+        <app-category-slider class="search-category-slider"></app-category-slider>
         <div class="custom-card card-main row p-0 m-0">
             <div class="search-heading">
                 <div class="search-heading-number display-inline">
                     Showing
                 </div>
                 <div class="search-heading-name display-inline">
-                    search result {{categoryName}}
+                    showing result(s) for {{searchKeyword}}
                 </div>
             </div>
-            <div class="search-card">
-                <ng-container>
-                    <app-book-card class="book book-card-link"></app-book-card>
+            <div class="search-card col-12 row p-0 m-0">
+                <ng-container *ngIf="bookList.length != 0">
+                    <ng-container *ngFor="let book of bookList">
+                        <app-book-card [book]="book" class="col-10 col-sm-6 col-md-3 book book-card-link"></app-book-card>
+                    </ng-container>
                 </ng-container>
-            </div>
-        </div>
-        <div class="custom-card card-main row p-0 m-0">
-            <div class="search-heading">
-                <div class="search-heading-number display-inline">
-                    Showing
-                </div>
-                <div class="search-heading-name display-inline">
-                    search result {{categoryName}}
-                </div>
-            </div>
-            <div class="search-card">
-                <ng-container>
-                    <app-book-card class="book book-card-link"></app-book-card>
-                </ng-container>
-            </div>
-        </div>
-        <div class="custom-card card-main row p-0 m-0">
-            <div class="search-heading">
-                <div class="search-heading-number display-inline">
-                    Showing
-                </div>
-                <div class="search-heading-name display-inline">
-                    search result {{categoryName}}
-                </div>
-            </div>
-            <div class="search-card">
-                <ng-container>
-                    <app-book-card class="book book-card-link"></app-book-card>
+                <ng-container *ngIf="bookList.length == 0">
+                    <ng-container class="text-center col-12">
+                        <h5>No search results found.</h5>
+                    </ng-container>
                 </ng-container>
             </div>
         </div>
