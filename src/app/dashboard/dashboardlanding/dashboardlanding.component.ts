@@ -14,6 +14,20 @@ export class DashboardlandingComponent implements OnInit {
 
   ngOnInit() {
     // this.router.navigate(['admin/dashboard']);
+    this.logincheck();
+  }
+
+  logincheck() {
+    const tocken = localStorage.getItem('tocken');
+    if (tocken === 'samathaadmin') {
+      this.reRoute('/admin');
+    } else {
+      this.reRoute('/login');
+    }
+  }
+
+  reRoute(route) {
+    this.router.navigate([route]);
   }
 
 }

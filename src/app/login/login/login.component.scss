@@ -1,0 +1,82 @@
+.login-main {
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #ffffff;
+}
+.half-card {
+  height: 50vh;
+  width: 100%;
+  background-color: #34e7e4;
+  position: absolute;
+  top: 0;
+}
+.image-wrapper {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.login-logo {
+  height: 100%;
+  width: 150px;
+}
+.login-heading {
+  -webkit-text-stroke: 0.5px #707070;
+  font-family: DidactGothic;
+  font-size: 41px;
+  color: rgba(128, 128, 128, 0.76);
+  width: 100%;
+  display: flex;
+  justify-content: center;
+}
+.input-field {
+  width: 100%;
+}
+.input-label {
+  font-size: 1rem;
+  color: rgba(128, 128, 128, 0.76);
+}
+.input-text {
+  outline: 0;
+  width: 100%;
+  padding: 12px;
+  margin-bottom: 10px;
+  border: 0px;
+  box-shadow: 0 4px 17px 0 rgba(0, 0, 0, 0.16);
+}
+.button {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 12px !important;
+  padding-bottom: 12px !important;
+}
+.login-btn {
+  height: 35px;
+  width: 90px;
+  font-family: DidactGothic;
+  color: #ffffff;
+  font-weight: 900;
+  background-color: #34e7e4;
+  border-radius: 6px;
+  box-shadow: 0 4px 17px 0 rgba(0, 0, 0, 0.16);
+  border: 0;
+  outline: 0;
+}
+@media (max-width: 992px) {
+  .login-logo {
+    width: 120px;
+  }
+  .login-heading {
+    font-size: 32px;
+  }
+}
+@media (max-width: 770px) {
+  .login-logo {
+    width: 120px;
+  }
+  .login-heading {
+    font-size: 32px;
+  }
+}

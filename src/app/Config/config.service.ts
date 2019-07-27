@@ -23,14 +23,15 @@ export class ConfigService {
     'deletecategory': "/deletecategory",
     'deleteauthor': "/deleteauthor",
     'deletebook': "/deletebook",
+    'login': '/login',
+  };
+
+  public TOCKEN = {
+    keyname: 'tocken',
+    keyvalue: 'samathaadmin',
   };
 
   public VERSION_NUMBER = 'v0.0.0';
-
-  public TOCKEN = {
-    keyname: '',
-    keyvalue: '',
-  };
 
   constructor() { }
 }

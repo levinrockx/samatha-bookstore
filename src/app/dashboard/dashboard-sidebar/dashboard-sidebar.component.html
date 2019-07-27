@@ -12,7 +12,7 @@
             <fa-icon slot="start" [icon]="faCogs"></fa-icon>
             <div class="nav-link-text">Settings</div>
         </div>
-        <div class="col-12 nav-link" (click)="navSelection(3, 'logout')" [ngClass]="{'nav-link-selected': selectedLink == 3}">
+        <div class="col-12 nav-link" (click)="logout()" [ngClass]="{'nav-link-selected': selectedLink == 3}">
             <fa-icon slot="start" [icon]="faPowerOff"></fa-icon>
             <div class="nav-link-text">Logout</div>
         </div>
