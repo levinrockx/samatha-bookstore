@@ -1,6 +1,6 @@
 import { NgModule } from '@angular/core';
 import { CommonModule } from '@angular/common';
-
+import { FormsModule } from '@angular/forms';
 import { UserRoutingModule } from './user-routing.module';
 import { UserlandingComponent } from './userlanding/userlanding.component';
 import { HomeComponent } from './home/home.component';
@@ -19,6 +19,7 @@ import { BookPageComponent } from './book-page/book-page.component';
 import { NguiMapModule } from '@ngui/map';
 import { FeaturedBookComponent } from './featured-book/featured-book.component';
 import { BannerComponent } from './banner/banner.component';
+import { SearchService } from './search.service';
 @NgModule({
   declarations: [UserlandingComponent,
     HomeComponent,
@@ -36,12 +37,13 @@ import { BannerComponent } from './banner/banner.component';
     FeaturedBookComponent,
     BannerComponent
   ],
-
   imports: [
     CommonModule,
+    FormsModule,
     UserRoutingModule,
     FontAwesomeModule,
     NguiMapModule.forRoot({ apiUrl: 'https://maps.google.com/maps/api/js?key=AIzaSyD8eyWbk1ah4lArbrPYmj6gZS6YfphOZjw' })
-  ]
+  ],
+  providers: [SearchService]
 })
 export class UserModule { }

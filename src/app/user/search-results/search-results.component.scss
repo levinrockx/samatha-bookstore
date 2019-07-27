@@ -1,7 +1,7 @@
 .search-main {
   margin-bottom: 100px !important;
 }
-.search-category-slider{
+.search-category-slider {
   width: 100%;
 }
 .search-result {
@@ -9,8 +9,8 @@
   margin-left: 10px !important;
 }
 .search-card {
-  display: grid;
-  grid-template-columns: auto auto auto;
+  display: flex;
+  justify-content: center;
 }
 .book {
   margin: 25px;
