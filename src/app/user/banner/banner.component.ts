@@ -1,4 +1,4 @@
-import { Component, OnInit, ElementRef, ViewChild } from '@angular/core';
+import { Component, OnInit } from '@angular/core';
 
 @Component({
   selector: 'app-banner',
@@ -6,16 +6,10 @@ import { Component, OnInit, ElementRef, ViewChild } from '@angular/core';
   styleUrls: ['./banner.component.scss']
 })
 export class BannerComponent implements OnInit {
-  public imgWidth;
-  @ViewChild('banner', { static: true }) banner: ElementRef;
+
   constructor() { }
 
   ngOnInit() {
-    this.setImgWidth();
-  }
-
-  setImgWidth() {
-    this.imgWidth = this.banner.nativeElement.offsetWidth;
   }
 
 }

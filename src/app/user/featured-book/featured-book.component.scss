@@ -10,16 +10,12 @@
 }
 .featured-book-wrapper {
   cursor: pointer;
-  // width: 100%;
-  // margin: 0 25px !important;
-}
-.featured-book {
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 100%;
+  margin: 0 25px !important;
 }
 .image-book {
-  padding: 10px;
+  width: 90%;
+  margin: 20px;
 }
 .book-details {
   font-family: DidactGothic;

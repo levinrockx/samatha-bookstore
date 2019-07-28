@@ -1,7 +1,8 @@
 <div class="row p-0 m-0 home-main">
-    <div class="container">
+    <div class="custom-container">
         <app-banner class="banner-component"></app-banner>
         <app-category-slider class="category-slider-component"></app-category-slider>
+        <app-featured-book class="featured-book"></app-featured-book>
         <ng-container *ngIf="categoryList.length !== 0">
             <app-books-card-slider *ngFor="let categoryobj of categoryList" [books]="categoryobj" class="books-card-slider-component"></app-books-card-slider>
         </ng-container>
