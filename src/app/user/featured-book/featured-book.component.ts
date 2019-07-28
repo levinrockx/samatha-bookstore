@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ElementRef, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
 @Component({
   selector: 'app-featured-book',
@@ -11,15 +11,22 @@ export class FeaturedBookComponent implements OnInit {
   public author;
   public edition;
   public content;
+  public imgWidth;
+  @ViewChild('leftCard', { static: true }) leftCard: ElementRef;
   constructor(
     private router: Router,
   ) { }
 
   ngOnInit() {
+    this.setImgWidth();
+  }
+
+  setImgWidth() {
+    this.imgWidth = this.leftCard.nativeElement.offsetWidth;
   }
 
   getBookDetails() {
-    
+
   }
 
   reRoute(route) {

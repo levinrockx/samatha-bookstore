@@ -1,10 +1,10 @@
-<div class="row p-0 m-0 featured-book-main">
+<div class="row p-0 m-0 featured-book-main" (window:resize)="setImgWidth()">
     <div class="row p-0 m-0 featured-book-heading">
         Featured Book
     </div>
     <div (click)="getBookDetails()" class="row p-0 m-0 custom-card featured-book-wrapper">
-        <div class="col-6 row p-0 m-0 featured-book">
-            <img src="assets/img/book.png" class="image-book">
+        <div class="col-6 row p-0 m-0 featured-book" #leftCard>
+            <img [ngStyle]="{'width.px': imgWidth }" src="assets/img/book.png" class="image-book">
         </div>
         <div class="col-6 p-0 m-0 book-details">
             <div class="book-page-title row p-0 m-0">
