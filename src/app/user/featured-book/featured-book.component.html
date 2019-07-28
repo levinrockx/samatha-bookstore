@@ -2,9 +2,9 @@
     <div class="row p-0 m-0 featured-book-heading">
         Featured Book
     </div>
-    <div class="col-12 row p-0 m-0 custom-card featured-book-wrapper">
+    <div (click)="getBookDetails()" class="row p-0 m-0 custom-card featured-book-wrapper">
         <div class="col-6 row p-0 m-0 featured-book">
-            <img (click)="reRoute('user/home')" src="assets/img/book.png" class="image-book">
+            <img src="assets/img/book.png" class="image-book">
         </div>
         <div class="col-6 p-0 m-0 book-details">
             <div class="book-page-title row p-0 m-0">

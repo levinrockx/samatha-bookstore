@@ -1,7 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
-
-
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-featured-book',
   templateUrl: './featured-book.component.html',
@@ -13,9 +11,19 @@ export class FeaturedBookComponent implements OnInit {
   public author;
   public edition;
   public content;
-  constructor() { }
+  constructor(
+    private router: Router,
+  ) { }
 
   ngOnInit() {
+  }
+
+  getBookDetails() {
+    
+  }
+
+  reRoute(route) {
+    this.router.navigate([route]);
   }
 
 }

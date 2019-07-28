@@ -10,7 +10,7 @@
 }
 .search-card {
   display: flex;
-  justify-content: start;
+  justify-content: flex-start;
 }
 .book {
   margin: 25px;
@@ -46,7 +46,7 @@
 @media (max-width: 576px) {
   .search-card {
     justify-content: center !important;
-    margin: 0px !important
+    margin: 0px !important;
   }
 }
 @media (max-width: 510px) {

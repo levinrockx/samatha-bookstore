@@ -1,3 +1,18 @@
+.featured-book-main {
+  margin-bottom: 30px !important;
+}
+.featured-book-heading {
+  font-size: 40px;
+  color: #707070;
+  padding-left: 50px !important;
+  font-family: DidactGothic;
+  padding-bottom: 10px !important;
+}
+.featured-book-wrapper {
+  cursor: pointer;
+  width: 100%;
+  margin: 0 25px !important;
+}
 .image-book {
   width: 90%;
   margin: 20px;
@@ -15,14 +30,4 @@
 .book-page-edition {
   padding-bottom: 20px !important;
   border-bottom: 1px solid rgba(128, 128, 128, 0.5);
-}
-.featured-book-main {
-  margin-bottom: 50px !important;
-}
-.featured-book-heading {
-  font-size: 40px;
-  color: #707070;
-  padding-left: 50px !important;
-  font-family: DidactGothic;
-  padding-bottom: 50px !important;
 }
