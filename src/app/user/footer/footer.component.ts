@@ -39,8 +39,7 @@ export class FooterComponent implements OnInit {
     document.execCommand('copy');
     document.body.removeChild(selBox);
     Swal.fire({
-      title: 'Success',
-      text: `Whats app number copied`,
+      title: 'Number copied',
       type: 'success',
     });
   }
