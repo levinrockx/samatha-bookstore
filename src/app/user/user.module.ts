@@ -20,6 +20,8 @@ import { NguiMapModule } from '@ngui/map';
 import { FeaturedBookComponent } from './featured-book/featured-book.component';
 import { BannerComponent } from './banner/banner.component';
 import { SearchService } from './search.service';
+import { ReactiveFormsModule } from '@angular/forms';
+
 @NgModule({
   declarations: [UserlandingComponent,
     HomeComponent,
@@ -42,6 +44,7 @@ import { SearchService } from './search.service';
     FormsModule,
     UserRoutingModule,
     FontAwesomeModule,
+    ReactiveFormsModule,
     NguiMapModule.forRoot({ apiUrl: 'https://maps.google.com/maps/api/js?key=AIzaSyD8eyWbk1ah4lArbrPYmj6gZS6YfphOZjw' })
   ],
   providers: [SearchService]
