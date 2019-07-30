@@ -17,7 +17,7 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NguiMapModule.forRoot({ apiUrl: 'https://maps.google.com/maps/api/js?key=MY_GOOGLE_API_KEY' }),
+    NguiMapModule.forRoot({ apiUrl: 'https://maps.google.com/maps/api/js?key=AIzaSyDKVt1xvCO0zJPWWDVoKwd0lb_mu2_-jUo' }),
     HttpClientModule,
     BrowserAnimationsModule,
     FontAwesomeModule,
