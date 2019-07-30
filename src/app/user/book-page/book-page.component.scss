@@ -26,51 +26,52 @@
 .book-page-title {
   font-family: DidactGothic;
   font-size: 20px;
-  color: rgba(128, 128, 128, 0.76);
+  color: #000000;
 }
 .book-page-price {
   font-family: DidactGothic;
   font-size: 20px;
   border-bottom: 1px solid rgba(128, 128, 128, 0.76);
-  color: rgba(128, 128, 128, 0.76);
+  color: #000000;
 }
 .book-page-author {
   font-family: DidactGothic;
   font-size: 17px;
-  color: rgba(128, 128, 128, 0.76);
+  color: #000000;
 }
 .book-page-category {
   font-family: DidactGothic;
   font-size: 17px;
-  color: rgba(128, 128, 128, 0.76);
+  color: #000000;
 }
 .book-page-language {
   font-family: DidactGothic;
   font-size: 17px;
-  color: rgba(128, 128, 128, 0.76);
+  color: #000000;
 }
 .book-page-edition {
   font-family: DidactGothic;
   font-size: 17px;
-  color: rgba(128, 128, 128, 0.76);
+  color: #000000;
   border-bottom: 1px solid rgba(128, 128, 128, 0.76);
 }
 .book-page-publisher {
   font-family: DidactGothic;
   font-size: 17px;
-  color: rgba(128, 128, 128, 0.76);
+  color: #000000;
   border-bottom: 1px solid rgba(128, 128, 128, 0.76);
 }
 .book-page-about-heading {
   font-family: DidactGothic;
-  color: rgba(128, 128, 128, 0.76);
+  // color: rgba(128, 128, 128, 0.76);
+  color: #000000;
   font-size: 17px;
   margin-top: 30px !important;
 }
 .book-page-about-content {
   font-family: DidactGothic;
   font-size: 15px;
-  color: rgba(128, 128, 128, 0.76);
+  color: #000000;
 }
 @media (max-width: 992px) {
   .book-page-res {
