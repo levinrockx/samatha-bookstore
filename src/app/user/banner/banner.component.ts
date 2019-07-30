@@ -1,5 +1,5 @@
 import { Component, OnInit } from '@angular/core';
-
+import { Router } from '@angular/router';
 @Component({
   selector: 'app-banner',
   templateUrl: './banner.component.html',
@@ -7,9 +7,36 @@ import { Component, OnInit } from '@angular/core';
 })
 export class BannerComponent implements OnInit {
 
-  constructor() { }
+  public imageList = [
+    {
+      'id': '5d39b9b12920f400ab888395',
+      'bookName': 'I, Rigoberta Menchu [Njan Rigoberta Menchu] Rigoberta Menchu',
+      'imageName': 'banner-image.jpg'
+    },
+    {
+      'id': '5d3c4bc58b8848e66c016323',
+      'bookName': 'Che Guevara :My Comrade in Life',
+      'imageName': 'banner-image1.jpg'
+    },
+    {
+      'id': '5d39b8b42920f400ab888394',
+      'bookName': 'To the Workfare – A Study as a Play and a Historical movement',
+      'imageName': 'banner-image2.jpg'
+    },
+  ];
+  constructor(
+    private router: Router,
+  ) { }
 
   ngOnInit() {
   }
 
+  bookRoute(id) {
+    const url = `user/bookpage/${id}`;
+    this.reRoute(url);
+  }
+
+  reRoute(route) {
+    this.router.navigate([route]);
+  }
 }
