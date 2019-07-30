@@ -1,7 +1,7 @@
 import { Component, OnInit, Inject } from '@angular/core';
 import { faFacebookSquare, faWhatsappSquare } from '@fortawesome/free-brands-svg-icons';
 import { Router } from '@angular/router';
-
+import Swal from 'sweetalert2';
 
 @Component({
   selector: 'app-footer',
@@ -38,6 +38,10 @@ export class FooterComponent implements OnInit {
     selBox.select();
     document.execCommand('copy');
     document.body.removeChild(selBox);
+    Swal.fire({
+      title: 'Number copied',
+      type: 'success',
+    });
   }
 
 }

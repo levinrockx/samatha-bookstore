@@ -61,6 +61,13 @@
 ul {
   list-style: none;
 }
+.media-icon {
+  cursor: pointer;
+  transition: all 0.25s cubic-bezier(0.37, 0.31, 0.2, 0.85);
+}
+.media-icon:hover {
+  color: #34e7e4;
+}
 @media (max-width: 992px) {
   .footer-logo {
     height: 100px;

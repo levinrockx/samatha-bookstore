@@ -1,5 +1,11 @@
 <div class="row p-0 m-0 contact-main">
     <div class="custom-container">
+        <!-- <div class="col-12 p-0 m-0 map custom-card">
+            <div>
+                <ngui-map zoom="18" center="9.998590,76.296914" class="map-row-main">
+                </ngui-map>
+            </div>
+        </div> -->
         <div class="col-12 row p-0 m-0 contact-wrapper">
             <div class="col-md-6 pl-0 left-card-wrapper">
                 <div class="custom-card left-card">
@@ -31,7 +37,7 @@
                                     Name
                                 </div>
                                 <div class="col-8 p-0 m-0 input-form">
-                                    <input type="text" class="search-bar">
+                                    <input [formControl]="nameControl"  type="text" class="search-bar">
                                 </div>
                             </div>
                             <div class="col-12 row p-0 m-0 form-items">
@@ -39,7 +45,7 @@
                                     Phone
                                 </div>
                                 <div class="col-8 p-0 m-0 input-form">
-                                    <input type="text" class="search-bar">
+                                    <input [(ngModel)]="phone" type="number" class="search-bar">
                                 </div>
                             </div>
                             <div class="col-12 row p-0 m-0 form-items">
@@ -47,7 +53,7 @@
                                     E-mail
                                 </div>
                                 <div class="col-8 p-0 m-0 input-form">
-                                    <input type="text" class="search-bar">
+                                    <input [formControl]="emailControl" type="email" class="search-bar">
                                 </div>
                             </div>
                             <div class="col-12 row p-0 m-0 form-items">
@@ -55,23 +61,15 @@
                                     Message
                                 </div>
                                 <div class="col-8 p-0 m-0 input-form">
-                                    <textarea type="text" class="search-bar"></textarea>
+                                    <textarea [(ngModel)]="message" type="text" class="search-bar"></textarea>
                                 </div>
                             </div>
                             <div class="col-12 row p-0 m-0 button">
-                                <button class="submit-btn">Submit</button>
+                                <button (click)="validate()" class="submit-btn">Submit</button>
                             </div>
                         </div>
                     </div>
                 </div>
-            </div>
-        </div>
-        <div class="col-12 p-0 m-0 map custom-card">
-            <div>
-                <!-- <ngui-map center="Ayyanthole, Thrissur"></ngui-map> -->
-                <ngui-map zoom="18" center="9.998590,76.296914" class="map-row-main">
-                    <marker position="9.998590,76.296914" title="samatha books"></marker>
-                  </ngui-map>
             </div>
         </div>
     </div>

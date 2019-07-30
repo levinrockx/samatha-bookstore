@@ -9,6 +9,7 @@ import { HttpClientModule } from '@angular/common/http';
 import { HttplayerService } from './HttpService/httplayer.service';
 import { FontAwesomeModule } from '@fortawesome/angular-fontawesome';
 import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
+import { ReactiveFormsModule } from '@angular/forms';
 @NgModule({
   declarations: [
     AppComponent,
@@ -17,9 +18,9 @@ import { NgbModule } from '@ng-bootstrap/ng-bootstrap';
   imports: [
     BrowserModule,
     AppRoutingModule,
-    NguiMapModule.forRoot({ apiUrl: 'https://maps.google.com/maps/api/js?key=MY_GOOGLE_API_KEY' }),
     HttpClientModule,
     BrowserAnimationsModule,
+    ReactiveFormsModule,
     FontAwesomeModule,
     NgbModule,
   ],
