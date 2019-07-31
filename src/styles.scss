@@ -15,6 +15,12 @@ body {
   margin: 0 9% !important;
   width: 100% !important;
 }
+@media (max-width: 576px) {
+  .phone-container {
+    margin: 0px !important;
+  }
+}
+
 .custom-card {
   border: 0;
   box-shadow: 0 4px 17px 0 rgba(0, 0, 0, 0.16);

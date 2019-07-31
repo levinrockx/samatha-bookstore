@@ -1,4 +1,4 @@
-import { Component, OnInit } from '@angular/core';
+import { Component, OnInit, ElementRef, ViewChild } from '@angular/core';
 import { Router } from '@angular/router';
 @Component({
   selector: 'app-banner',
@@ -6,7 +6,8 @@ import { Router } from '@angular/router';
   styleUrls: ['./banner.component.scss']
 })
 export class BannerComponent implements OnInit {
-
+  @ViewChild('banner', { static: true }) banner: ElementRef;
+  public imageWidth;
   public imageList = [
     {
       'id': '5d39b9b12920f400ab888395',
@@ -29,6 +30,11 @@ export class BannerComponent implements OnInit {
   ) { }
 
   ngOnInit() {
+    this.getBannerWidth();
+  }
+
+  getBannerWidth() {
+    this.imageWidth = this.banner.nativeElement.offsetWidth;
   }
 
   bookRoute(id) {

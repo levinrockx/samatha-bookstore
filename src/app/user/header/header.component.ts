@@ -25,12 +25,17 @@ export class HeaderComponent implements OnInit {
   }
 
   reRoute(route) {
+    this.close();
     this.router.navigate([route]);
   }
 
   search() {
     this.serachService.setSearchKeyWord(this.searchKeyword);
     this.reRoute('user/search');
+  }
+
+  close() {
+    this.headerresponsivestatus = false;
   }
 
 }
